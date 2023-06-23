@@ -1,0 +1,16 @@
+scenario Scenario_VincitaCompletaBase
+load SetteEMezzoNC.asm
+
+invariant soldi(PC) :+ soldi(UTENTE) = 10;
+
+exec
+	par
+		pescaUtente := true
+		pescata(PC) := TRE
+		pescata(UTENTE) := QUATTRO
+	endpar
+;
+step until soldi(UTENTE) = 10;
+
+check vincitore = WIN_UTENTE;
+check soldi(PC) = 10;

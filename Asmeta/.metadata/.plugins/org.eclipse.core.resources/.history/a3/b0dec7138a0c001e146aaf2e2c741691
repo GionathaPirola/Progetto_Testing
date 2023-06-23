@@ -1,0 +1,44 @@
+scenario Scenario_VincitaUtenteBase
+load SetteEMezzo.asm
+
+
+exec
+	par
+		pescaUtente := true
+		pescata(PC) := CINQUE
+		pescata(UTENTE) := QUATTRO
+	endpar
+;
+step
+
+check pescaPC = true;
+check mano(PC) = 5.0;
+check mano(UTENTE) = 4.0;
+check vincitore = NONDEFINITO;
+
+exec
+	par
+		pescaUtente := true
+		pescata(PC) := CINQUE
+		pescata(UTENTE) := TRE
+	endpar
+;
+step
+
+check pescaPC = false;
+check mano(PC) = 5.0;
+check mano(UTENTE) = 7.0;
+check vincitore = NONDEFINITO;
+
+exec 
+	par
+		pescaUtente := true
+		pescata(PC) := ASSO
+		pescata(UTENTE) := RE
+	endpar
+;
+step
+
+check soldi(UTENTE) = 6;
+check soldi(PC) = 4;
+check vincitore = WIN_UTENTE;

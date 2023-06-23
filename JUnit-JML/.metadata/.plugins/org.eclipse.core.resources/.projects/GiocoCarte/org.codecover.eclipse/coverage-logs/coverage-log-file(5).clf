@@ -1,0 +1,67 @@
+// Charset: UTF-8
+// ///////////////////////////////
+// 
+// Start Session
+// 
+// 18.06.2023 17:21:27.266
+// 
+// ///////////////////////////////
+// 18.06.2023 17:21:27.297
+TEST_SESSION_CONTAINER "4c5f9d0f-fe2f-40d9-9376-a3df570d359b"
+START_TEST_CASE "testGioco:testIstruzioni" 1687101687297
+START_SECTION "Gioco.java"
+S1 1
+S2 1
+S3 1
+S4 1
+S5 3
+S6 3
+S7 1
+S8 1
+S9 3
+S10 3
+S11 1
+S12 1
+S13 1
+S14 1
+S15 1
+S16 3
+S18 3
+S21 3
+S22 3
+S23 1
+S24 3
+S26 3
+B1 1
+B3 3
+B6 3
+B8 3
+B9 3
+B12 3
+B14 3
+C1-10 1
+C1-11 3
+C2-11 1
+C3-10 1
+C3-11 3
+C4-11 3
+C5-10 1
+C5-11 3
+C6-10 3
+C7-10 3
+C8-11 3
+C9-10 1
+C9-11 3
+C10-1110 3
+C11-1110 3
+// 18.06.2023 17:21:27.306
+// 00:00.009
+END_TEST_CASE "testGioco:testIstruzioni" 1687101687306 "Failure\njava.lang.AssertionError: expected:<0> but was:<-1>\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat testGioco.testIstruzioni(testGioco.java:12)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)\r\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\r\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)\r\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\r\n\tat org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)\r\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)\r\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)\r\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)\r\n\tat org.codecover.juniteclipse.runner.EclipseTestRunner.main(EclipseTestRunner.java:40)\r\n"
+// ///////////////////////////////
+// 
+// End Session
+// 
+// 18.06.2023 17:21:27.308
+// 00:00.042
+// 
+// ///////////////////////////////

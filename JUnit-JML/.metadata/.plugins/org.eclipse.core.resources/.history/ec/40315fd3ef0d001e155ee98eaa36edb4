@@ -1,0 +1,59 @@
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class testGioco {
+
+	@Test
+	public void testIstruzioni() {
+
+		int result = 0;
+		Gioco g1 = new Gioco(3);
+		int[] pescata1 = {5,3,5};
+		result = g1.giocata(pescata1);
+		g1.print();
+		assertEquals(-1,result);
+		
+		result = g1.giocata(pescata1);
+		assertEquals(2,result);
+		
+		
+		Gioco g2 = new Gioco(3);
+		int[] pescata2 = {1,1,8};
+		result = g2.giocata(pescata2);
+		g2.print();
+		assertEquals(3,result);
+		
+	}
+
+	
+	@Test
+	public void testBranch() {
+
+		int result = 0;
+		Gioco g1 = new Gioco(3);
+		int[] pescata1 = {5,3,5};
+		result = g1.giocata(pescata1);
+		g1.print();
+		assertEquals(-1,result);
+		
+		result = g1.giocata(pescata1);
+		assertEquals(2,result);
+		
+		
+		Gioco g2 = new Gioco(3);
+		int[] pescata2 = {1,1,8};
+		result = g2.giocata(pescata2);
+		g2.print();
+		assertEquals(3,result);
+		
+		result = g2.giocata(pescata2);
+		assertEquals(3,result);
+		
+		Gioco g3 = new Gioco(3);
+		int[] pescata3 = {1,1,10};
+		result = g3.giocata(pescata3);
+		result = g3.giocata(pescata3);
+		
+	}
+}

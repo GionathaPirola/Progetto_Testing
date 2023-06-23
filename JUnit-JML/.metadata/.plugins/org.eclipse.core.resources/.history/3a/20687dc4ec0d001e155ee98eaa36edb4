@@ -1,0 +1,19 @@
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class testGioco {
+
+	@Test
+	public void testIstruzioni() {
+
+		Gioco g1 = new Gioco(3);
+		int[] pescata1 = {1,1,1};
+		assertEquals(-1,g1.giocata(pescata1));
+		
+		Gioco g2 = new Gioco(3);
+		int[] pescata2 = {1,1,4};
+		assertEquals(3,g2.giocata(pescata2));
+	}
+
+}

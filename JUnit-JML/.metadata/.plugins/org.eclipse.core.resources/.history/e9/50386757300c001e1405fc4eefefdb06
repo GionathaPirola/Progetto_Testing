@@ -1,0 +1,27 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Gioco g = new Gioco(6);
+		int[] pescate = {1,5,3,3,3,3};
+		
+		g.giocata(pescate);
+		g.print();
+
+		
+		g.giocata(pescate);
+		g.print();
+		
+		g.giocata(pescate);
+		g.print();
+		
+		g.giocata(pescate);
+		g.print();
+		
+		
+		g = new Gioco(3);
+		g.print();
+	}
+
+}

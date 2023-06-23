@@ -1,0 +1,21 @@
+INDEX VERSION 1.131+C:\Documenti\UniBG\Materie\Testing\Progetto_Testing\JUnit-JML\.metadata\.plugins\org.eclipse.jdt.core
+2408741659.index
+3719555507.index
+602589030.index
+39702787.index
+2791231903.index
+2778587470.index
+2567323097.index
+1995649486.index
+1976063974.index
+1423510064.index
+1805392846.index
+4268224571.index
+2409434075.index
+880122584.index
+2425802604.index
+1738356656.index
+3009906655.index
+1652927277.index
+4229738783.index
+3669297655.index
