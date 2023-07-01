@@ -22,8 +22,9 @@ public class testGioco {
 		
 		//Test in cui qualcuno vince perchè arriva ad otto preciso
 		Gioco g2 = new Gioco(3);
-		int[] pescata2 = {1,1,8};
+		int[] pescata2 = {1,1,4};
 		
+		result = g2.giocata(pescata2);
 		result = g2.giocata(pescata2);
 		g2.print();
 		assertEquals(3,result);
@@ -46,8 +47,9 @@ public class testGioco {
 		
 		
 		Gioco g2 = new Gioco(3);
-		int[] pescata2 = {1,1,8};
+		int[] pescata2 = {1,1,4};
 		
+		result = g2.giocata(pescata2);
 		result = g2.giocata(pescata2);
 		g2.print();
 		assertEquals(3,result);
@@ -59,9 +61,11 @@ public class testGioco {
 		/*	Test per coprire il caso in cui solo uno perde mentre gli altri possono giocare
 			Siamo quindi nel caso in cui un giocatore non può pescare mentre gli altri possono	*/
 		Gioco g3 = new Gioco(3);
-		int[] pescata3 = {1,1,10};
+		int[] pescata3 = {1,1,5};
+		result = g3.giocata(pescata3);
 		result = g3.giocata(pescata3);
 		result = g3.giocata(pescata3);	
+		assertEquals(-1,result);
 	}
 	
 	
@@ -82,8 +86,9 @@ public class testGioco {
 		
 		
 		Gioco g2 = new Gioco(3);
-		int[] pescata2 = {1,1,8};
+		int[] pescata2 = {1,1,4};
 		
+		result = g2.giocata(pescata2);
 		result = g2.giocata(pescata2);
 		g2.print();
 		assertEquals(3,result);
@@ -93,9 +98,11 @@ public class testGioco {
 		
 		
 		Gioco g3 = new Gioco(3);
-		int[] pescata3 = {1,1,10};
+		int[] pescata3 = {1,1,5};
 		result = g3.giocata(pescata3);
 		result = g3.giocata(pescata3);	
+		result = g3.giocata(pescata3);	
+		assertEquals(-1,result);
 	}
 	
 	
@@ -114,8 +121,9 @@ public class testGioco {
 		
 		
 		Gioco g2 = new Gioco(3);
-		int[] pescata2 = {1,1,8};
+		int[] pescata2 = {1,1,4};
 		
+		result = g2.giocata(pescata2);
 		result = g2.giocata(pescata2);
 		g2.print();
 		assertEquals(3,result);
@@ -125,8 +133,10 @@ public class testGioco {
 		
 		
 		Gioco g3 = new Gioco(3);
-		int[] pescata3 = {1,1,10};
+		int[] pescata3 = {1,1,5};
+		result = g3.giocata(pescata3);
 		result = g3.giocata(pescata3);
 		result = g3.giocata(pescata3);	
+		assertEquals(-1,result);
 	}
 }

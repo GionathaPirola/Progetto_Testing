@@ -1,0 +1,9 @@
+Model Phone
+// This is an example model
+Parameters:
+  emailViewer : Boolean
+  textLines:  [ 25 .. 30 ]
+  display : {16MC, 8MC, BW}
+
+Constraints:
+  # emailViewer => textLines > 28 #

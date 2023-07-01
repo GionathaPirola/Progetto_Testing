@@ -4,4 +4,10 @@
 		<item key="DIALOG_X_ORIGIN" value="651"/>
 		<item key="DIALOG_Y_ORIGIN" value="69"/>
 	</section>
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="ctwedge.ui.wizards.CTWedgeNewFileWizard"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="ctwedge.ui"/>
+		</list>
+	</section>
 </section>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.asmeta.atgt.asmSpec">
+    <booleanAttribute key="computeCoverage" value="false"/>
+    <listAttribute key="coverageCriteria">
+        <listEntry value="BASIC_RULE"/>
+        <listEntry value="COMPLETE_RULE"/>
+        <listEntry value="RULE_UPDATE"/>
+    </listAttribute>
+    <listAttribute key="coverageFormats">
+        <listEntry value="AVALLA"/>
+    </listAttribute>
+</launchConfiguration>

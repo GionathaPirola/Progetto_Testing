@@ -1,0 +1,9 @@
+Model Gioco
+
+Parameters:
+  pescataG1: [1 .. 9]
+  pescataG2: [1 .. 9]
+  pescataG3: [1 .. 9]
+
+Constraints:
+  # emailViewer => textLines > 28 #

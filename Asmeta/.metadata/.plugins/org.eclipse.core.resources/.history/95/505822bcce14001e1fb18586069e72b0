@@ -1,0 +1,6 @@
+scenario testBR_r_main_TBR_r_partita_TFFT
+
+load ./..\SetteEMezzoATGT.asm
+
+//// test name test@BR_r_main_TBR_r_partita_TFFT
+//// generated for (test goal): BR_r_main_TBR_r_partita_TFFT: (vittoria = NONDEFINITA) and (not(pescata = ZERO) and ((mano != ASSO) and (not((mano = ASSO) and (pescata = ASSO)) and (((mano = ASSO) and (pescata = DUE)) or ((mano = DUE) and (pescata = ASSO))))))

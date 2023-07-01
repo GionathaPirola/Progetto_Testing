@@ -1,0 +1,9 @@
+scenario testUR_r_main_UR_r_partita_F
+
+load ./..\SetteEMezzoATGT2.asm
+
+//// test name test@UR_r_main_UR_r_partita_F
+//// generated for (test goal): UR_r_main_UR_r_partita_F: not(pescata = SETTE) and (vittoria != PERSA)
+check vittoria = NONDEFINITA;
+set pescata := ASSO;
+step

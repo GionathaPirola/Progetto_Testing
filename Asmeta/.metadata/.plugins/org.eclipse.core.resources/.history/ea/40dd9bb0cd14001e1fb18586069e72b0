@@ -1,0 +1,9 @@
+scenario testBR_r_main_BR_r_partita_F
+
+load ./..\SetteEMezzoATGT2.asm
+
+//// test name test@BR_r_main_BR_r_partita_F
+//// generated for (test goal): BR_r_main_BR_r_partita_F: pescata != SETTE
+check vittoria = NONDEFINITA;
+set pescata := ASSO;
+step

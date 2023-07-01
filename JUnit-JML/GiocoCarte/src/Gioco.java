@@ -43,8 +43,8 @@ public class Gioco {
 	//Richieso che il vettore delle pescate non sia nullo
 		//@requires pescate != null;
 	
-	//Richiedo che il vettore delle pescate abbia numeri positivi, compresi tra uno e otto
-		//@requires (\forall int x; 0<=x &&  x<pescate.length; pescate[x]>0 && pescate[x]<=8);
+	//Richiedo che il vettore delle pescate abbia numeri positivi, compresi tra uno e sette
+		//@requires (\forall int x; 0<=x &&  x<pescate.length; pescate[x]>0 && pescate[x]<8);
 	
 	//Controllo che la mano più la pescate non superi il numero 16
 		//@requires (\forall int x; 0<=x &&  x<mano.length; (mano[x]+pescate[x])>=0 && (mano[x]+pescate[x])<=16);

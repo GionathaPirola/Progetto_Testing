@@ -1,0 +1,29 @@
+--file C:\Documenti\UniBG\Materie\Testing\Progetto_Testing\Asmeta\GiocoCarte\Gioco_MBT-ATGT\SetteEMezzoATGT2.smv
+-- options: flatten? false
+MODULE main
+	VAR
+		mano: {ASSO, CARTE_UNDEF, CINQUE, DUE, NULL, QUATTRO, SEI, SETTE, TRE}; --controlled
+		pescata: {ASSO, CARTE_UNDEF, CINQUE, DUE, NULL, QUATTRO, SEI, SETTE, TRE}; --monitored
+		vittoria: {NONDEFINITA, PERSA, STATOPARTITA_UNDEF, VINTA}; --controlled
+	CONSTANTS CARTE_UNDEF, ASSO, CINQUE, DUE, NULL, QUATTRO, SEI, SETTE, TRE, STATOPARTITA_UNDEF, NONDEFINITA, PERSA, VINTA;
+	ASSIGN
+		init(mano) := NULL;
+		init(vittoria) := NONDEFINITA;
+		next(mano) :=
+			case
+				(!(((mano = ASSO) & (pescata = TRE)) | ((mano = TRE) & (pescata = ASSO))) & (vittoria = NONDEFINITA) & !(((pescata = ASSO) & (mano = DUE)) | ((mano = ASSO) & (pescata = DUE))) & !(((pescata = ASSO) & (mano = QUATTRO)) | ((mano = ASSO) & (pescata = QUATTRO))) & !(pescata = NULL) & (((mano = ASSO) & (pescata = CINQUE)) | ((pescata = ASSO) & (mano = CINQUE))) & !(mano = NULL) & !((mano = ASSO) & (pescata = ASSO))): SEI;
+				((vittoria = NONDEFINITA) & !(((pescata = ASSO) & (mano = DUE)) | ((mano = ASSO) & (pescata = DUE))) & (((mano = ASSO) & (pescata = TRE)) | ((mano = TRE) & (pescata = ASSO))) & !(pescata = NULL) & !(mano = NULL) & !((mano = ASSO) & (pescata = ASSO))): QUATTRO;
+				((((pescata = ASSO) & (mano = DUE)) | ((mano = ASSO) & (pescata = DUE))) & (vittoria = NONDEFINITA) & !(pescata = NULL) & !(mano = NULL) & !((mano = ASSO) & (pescata = ASSO))): TRE;
+				((vittoria = NONDEFINITA) & ((mano = ASSO) & (pescata = ASSO)) & !(pescata = NULL) & !(mano = NULL)): DUE;
+				(!(((mano = ASSO) & (pescata = TRE)) | ((mano = TRE) & (pescata = ASSO))) & (vittoria = NONDEFINITA) & !(((pescata = ASSO) & (mano = DUE)) | ((mano = ASSO) & (pescata = DUE))) & !(((mano = ASSO) & (pescata = CINQUE)) | ((pescata = ASSO) & (mano = CINQUE))) & (((mano = SEI) & (pescata = ASSO)) | ((mano = ASSO) & (pescata = SEI))) & !(((pescata = ASSO) & (mano = QUATTRO)) | ((mano = ASSO) & (pescata = QUATTRO))) & !(pescata = NULL) & !(mano = NULL) & !((mano = ASSO) & (pescata = ASSO))): SETTE;
+				(!(((mano = ASSO) & (pescata = TRE)) | ((mano = TRE) & (pescata = ASSO))) & (vittoria = NONDEFINITA) & !(((pescata = ASSO) & (mano = DUE)) | ((mano = ASSO) & (pescata = DUE))) & !(pescata = NULL) & (((pescata = ASSO) & (mano = QUATTRO)) | ((mano = ASSO) & (pescata = QUATTRO))) & !(mano = NULL) & !((mano = ASSO) & (pescata = ASSO))): CINQUE;
+				((mano = NULL) & (vittoria = NONDEFINITA) & !(pescata = NULL)): pescata;
+				TRUE: mano;
+			esac;
+		next(vittoria) :=
+			case
+				(!(((mano = ASSO) & (pescata = TRE)) | ((mano = TRE) & (pescata = ASSO))) & (vittoria = NONDEFINITA) & !(((pescata = ASSO) & (mano = DUE)) | ((mano = ASSO) & (pescata = DUE))) & (((pescata = ASSO) & (mano = SETTE)) | ((mano = ASSO) & (pescata = SETTE))) & !(((mano = ASSO) & (pescata = CINQUE)) | ((pescata = ASSO) & (mano = CINQUE))) & !(((mano = SEI) & (pescata = ASSO)) | ((mano = ASSO) & (pescata = SEI))) & !(((pescata = ASSO) & (mano = QUATTRO)) | ((mano = ASSO) & (pescata = QUATTRO))) & !(pescata = NULL) & !(mano = NULL) & !((mano = ASSO) & (pescata = ASSO))): VINTA;
+				TRUE: vittoria;
+			esac;
+--CTL properties
+CTLSPEC NAME ctl0 := AG(!((vittoria = NONDEFINITA) & (!(pescata = NULL) & ((mano != NULL) & (!((mano = ASSO) & (pescata = ASSO)) & (!(((mano = ASSO) & (pescata = DUE)) | ((mano = DUE) & (pescata = ASSO))) & (!(((mano = ASSO) & (pescata = TRE)) | ((mano = TRE) & (pescata = ASSO))) & (!(((mano = ASSO) & (pescata = QUATTRO)) | ((mano = QUATTRO) & (pescata = ASSO))) & (!(((mano = ASSO) & (pescata = CINQUE)) | ((mano = CINQUE) & (pescata = ASSO))) & (!(((mano = ASSO) & (pescata = SEI)) | ((mano = SEI) & (pescata = ASSO))) & !(((mano = ASSO) & (pescata = SETTE)) | ((mano = SETTE) & (pescata = ASSO)))))))))))));

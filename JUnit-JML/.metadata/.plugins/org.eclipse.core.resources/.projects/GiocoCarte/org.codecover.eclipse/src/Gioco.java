@@ -58,8 +58,8 @@ this.vincitori[i] = 0;
 	//Richieso che il vettore delle pescate non sia nullo
 		//@requires pescate != null;
 	
-	//Richiedo che il vettore delle pescate abbia numeri positivi, compresi tra uno e otto
-		//@requires (\forall int x; 0<=x &&  x<pescate.length; pescate[x]>0 && pescate[x]<=8);
+	//Richiedo che il vettore delle pescate abbia numeri positivi, compresi tra uno e sette
+		//@requires (\forall int x; 0<=x &&  x<pescate.length; pescate[x]>0 && pescate[x]<8);
 	
 	//Controllo che la mano più la pescate non superi il numero 16
 		//@requires (\forall int x; 0<=x &&  x<mano.length; (mano[x]+pescate[x])>=0 && (mano[x]+pescate[x])<=16);
@@ -281,7 +281,7 @@ System.out.println("\n");
 class CodeCoverCoverageCounter$1iwyhw3q3j530m01 extends org.codecover.instrumentation.java.measurement.CounterContainer {
 
   static {
-    org.codecover.instrumentation.java.measurement.ProtocolImpl.getInstance(org.codecover.instrumentation.java.measurement.CoverageResultLogFile.getInstance("C:\\Documenti\\UniBG\\Materie\\Testing\\Progetto_Testing\\JUnit-JML\\.metadata\\.plugins\\org.eclipse.core.resources\\.projects\\GiocoCarte\\org.codecover.eclipse\\coverage-logs\\coverage-log-file.clf"), "35a00ff1-00ec-4b14-9511-3723effde8b6").addObservedContainer(new CodeCoverCoverageCounter$1iwyhw3q3j530m01 ());
+    org.codecover.instrumentation.java.measurement.ProtocolImpl.getInstance(org.codecover.instrumentation.java.measurement.CoverageResultLogFile.getInstance("C:\\Documenti\\UniBG\\Materie\\Testing\\Progetto_Testing\\JUnit-JML\\.metadata\\.plugins\\org.eclipse.core.resources\\.projects\\GiocoCarte\\org.codecover.eclipse\\coverage-logs\\coverage-log-file.clf"), "3a547fb5-a3a6-4616-b74a-3d9deed6c9be").addObservedContainer(new CodeCoverCoverageCounter$1iwyhw3q3j530m01 ());
   }
     public static long[] statements = new long[36];
     public static long[] branches = new long[19];
