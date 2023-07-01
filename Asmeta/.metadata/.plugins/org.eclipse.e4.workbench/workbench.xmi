@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_5LVSABTSEe6BWP2bIk55_w" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_5LVSARTSEe6BWP2bIk55_w" bindingContexts="_5LWhAhTSEe6BWP2bIk55_w">
-  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.asmeta.xt.AsmetaL&quot; name=&quot;SetteEMezzoATGT2.asm&quot; tooltip=&quot;GiocoCarte/Gioco_MBT-ATGT/SetteEMezzoATGT2.asm&quot;>&#xD;&#xA;&lt;persistable path=&quot;/GiocoCarte/Gioco_MBT-ATGT/SetteEMezzoATGT2.asm&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.asmeta.xt.AsmetaL&quot; name=&quot;SetteEMezzoNReal.asm&quot; tooltip=&quot;GiocoCarte/Gioco_NReal/SetteEMezzoNReal.asm&quot;>&#xD;&#xA;&lt;persistable path=&quot;/GiocoCarte/Gioco_NReal/SetteEMezzoNReal.asm&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.asmeta.xt.AsmetaL&quot; name=&quot;SetteEMezzoNReal.asm&quot; tooltip=&quot;GiocoCarte/Gioco_MBT-ATGT/SetteEMezzoNReal.asm&quot;>&#xD;&#xA;&lt;persistable path=&quot;/GiocoCarte/Gioco_MBT-ATGT/SetteEMezzoNReal.asm&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.asmeta.xt.AsmetaL&quot; name=&quot;SetteEMezzo.asm&quot; tooltip=&quot;GiocoCarte/Gioco_Base/SetteEMezzo.asm&quot;>&#xD;&#xA;&lt;persistable path=&quot;/GiocoCarte/Gioco_Base/SetteEMezzo.asm&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.asmeta.xt.AsmetaL&quot; name=&quot;StandardLibrary.asm&quot; tooltip=&quot;GiocoCarte/Gioco_NReal/StandardLibrary.asm&quot;>&#xD;&#xA;&lt;persistable path=&quot;/GiocoCarte/Gioco_NReal/StandardLibrary.asm&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.asmeta.xt.AsmetaL&quot; name=&quot;SetteEMezzoNC.asm&quot; tooltip=&quot;GiocoCarte/Gioco_NChoice/SetteEMezzoNC.asm&quot;>&#xD;&#xA;&lt;persistable path=&quot;/GiocoCarte/Gioco_NChoice/SetteEMezzoNC.asm&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.asmeta.avallaxt.Avalla&quot; name=&quot;ScenarioVincitaUtenteBase.avalla&quot; tooltip=&quot;GiocoCarte/Gioco_NChoice/ScenarioVincitaUtenteBase.avalla&quot;>&#xD;&#xA;&lt;persistable path=&quot;/GiocoCarte/Gioco_NChoice/ScenarioVincitaUtenteBase.avalla&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.asmeta.avallaxt.Avalla&quot; name=&quot;ScenarioVincitaCompleta.avalla&quot; tooltip=&quot;GiocoCarte/Gioco_NChoice/ScenarioVincitaCompleta.avalla&quot;>&#xD;&#xA;&lt;persistable path=&quot;/GiocoCarte/Gioco_NChoice/ScenarioVincitaCompleta.avalla&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.asmeta.avallaxt.Avalla&quot; name=&quot;ScenarioGiocataConPareggio.avalla&quot; tooltip=&quot;GiocoCarte/Gioco_NChoice/ScenarioGiocataConPareggio.avalla&quot;>&#xD;&#xA;&lt;persistable path=&quot;/GiocoCarte/Gioco_NChoice/ScenarioGiocataConPareggio.avalla&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.asmeta.xt.AsmetaL&quot; name=&quot;CTLlibrary.asm&quot; tooltip=&quot;GiocoCarte/Gioco_NReal/CTLlibrary.asm&quot;>&#xD;&#xA;&lt;persistable path=&quot;/GiocoCarte/Gioco_NReal/CTLlibrary.asm&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.asmeta.xt.AsmetaL&quot; name=&quot;SetteEMezzo.asm&quot; tooltip=&quot;GiocoCarte/Gioco_NReal/SetteEMezzo.asm&quot;>&#xD;&#xA;&lt;persistable path=&quot;/GiocoCarte/Gioco_NReal/SetteEMezzo.asm&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.asmeta.avallaxt.Avalla&quot; name=&quot;ScenarioVincitaUtenteBase.avalla&quot; tooltip=&quot;GiocoCarte/Gioco_Base/ScenarioVincitaUtenteBase.avalla&quot;>&#xD;&#xA;&lt;persistable path=&quot;/GiocoCarte/Gioco_Base/ScenarioVincitaUtenteBase.avalla&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.asmeta.avallaxt.Avalla&quot; name=&quot;Scenario1.avalla&quot; tooltip=&quot;GiocoCarte/Gioco_NChoice/Scenario1.avalla&quot;>&#xD;&#xA;&lt;persistable path=&quot;/GiocoCarte/Gioco_NChoice/Scenario1.avalla&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.asmeta.xt.AsmetaL&quot; name=&quot;CTLlibrary.asm&quot; tooltip=&quot;GiocoCarte/Gioco_NChoice/CTLlibrary.asm&quot;>&#xD;&#xA;&lt;persistable path=&quot;/GiocoCarte/Gioco_NChoice/CTLlibrary.asm&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.ui.DefaultTextEditor&quot; name=&quot;ScenarioVincitaUtenteCompleta&quot; tooltip=&quot;GiocoCarte/Gioco_NChoice/ScenarioVincitaUtenteCompleta&quot;>&#xD;&#xA;&lt;persistable path=&quot;/GiocoCarte/Gioco_NChoice/ScenarioVincitaUtenteCompleta&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.asmeta.avallaxt.Avalla&quot; name=&quot;Scenario_VincitaUtenteBase.avalla&quot; tooltip=&quot;GiocoCarte/Scenario_VincitaUtenteBase.avalla&quot;>&#xD;&#xA;&lt;persistable path=&quot;/GiocoCarte/Scenario_VincitaUtenteBase.avalla&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.asmeta.avallaxt.Avalla&quot; name=&quot;Scenario1.avalla&quot; tooltip=&quot;GiocoCarte/Scenario1.avalla&quot;>&#xD;&#xA;&lt;persistable path=&quot;/GiocoCarte/Scenario1.avalla&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.ui.DefaultTextEditor&quot; name=&quot;Scenario_VincitaUtenteBase&quot; tooltip=&quot;GiocoCarte/Scenario_VincitaUtenteBase&quot;>&#xD;&#xA;&lt;persistable path=&quot;/GiocoCarte/Scenario_VincitaUtenteBase&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.asmeta.avallaxt.Avalla&quot; name=&quot;Scenario_VincitaSingolaGiocataPC.avalla&quot; tooltip=&quot;GiocoCarte/Scenario_VincitaSingolaGiocataPC.avalla&quot;>&#xD;&#xA;&lt;persistable path=&quot;/GiocoCarte/Scenario_VincitaSingolaGiocataPC.avalla&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.asmeta.xt.AsmetaL&quot; name=&quot;SetteEMezzo_SenzaChoose.asm&quot; tooltip=&quot;GiocoCarte/SetteEMezzo_SenzaChoose.asm&quot;>&#xD;&#xA;&lt;persistable path=&quot;/GiocoCarte/SetteEMezzo_SenzaChoose.asm&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.asmeta.xt.AsmetaL&quot; name=&quot;ATM.asm&quot; tooltip=&quot;C:\Documenti\UniBG\Materie\Testing\Esercizi Gionny\Asmeta\Esercizio_7\ATM.asm&quot;>&#xD;&#xA;&lt;persistable uri=&quot;file:/C:/Documenti/UniBG/Materie/Testing/Esercizi%20Gionny/Asmeta/Esercizio_7/ATM.asm&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.asmeta.xt.AsmetaL&quot; name=&quot;SetteEMezzo.asm&quot; tooltip=&quot;GiocoCarte/SetteEMezzo.asm&quot;>&#xD;&#xA;&lt;persistable path=&quot;/GiocoCarte/SetteEMezzo.asm&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.ui.DefaultTextEditor&quot; name=&quot;SetteEMezzo&quot; tooltip=&quot;GiocoCarte/SetteEMezzo&quot;>&#xD;&#xA;&lt;persistable path=&quot;/GiocoCarte/SetteEMezzo&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
+  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.asmeta.avallaxt.Avalla&quot; name=&quot;testUR_r_main_TUR_r_partita_FFFFFFFFFFFFFFT.avalla&quot; tooltip=&quot;GiocoCarte/Gioco_MBT-ATGT/abstractests/testUR_r_main_TUR_r_partita_FFFFFFFFFFFFFFT.avalla&quot;>&#xD;&#xA;&lt;persistable path=&quot;/GiocoCarte/Gioco_MBT-ATGT/abstractests/testUR_r_main_TUR_r_partita_FFFFFFFFFFFFFFT.avalla&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.asmeta.avallaxt.Avalla&quot; name=&quot;testBR_r_main_TBR_r_partita_FFFFFFFFFFFFFFFF.avalla&quot; tooltip=&quot;GiocoCarte/Gioco_MBT-ATGT/abstractests/testBR_r_main_TBR_r_partita_FFFFFFFFFFFFFFFF.avalla&quot;>&#xD;&#xA;&lt;persistable path=&quot;/GiocoCarte/Gioco_MBT-ATGT/abstractests/testBR_r_main_TBR_r_partita_FFFFFFFFFFFFFFFF.avalla&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.asmeta.xt.AsmetaL&quot; name=&quot;SetteEMezzoATGT2.asm&quot; tooltip=&quot;GiocoCarte/Gioco_MBT-ATGT/SetteEMezzoATGT2.asm&quot;>&#xD;&#xA;&lt;persistable path=&quot;/GiocoCarte/Gioco_MBT-ATGT/SetteEMezzoATGT2.asm&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.asmeta.xt.AsmetaL&quot; name=&quot;SetteEMezzoNReal.asm&quot; tooltip=&quot;GiocoCarte/Gioco_NReal/SetteEMezzoNReal.asm&quot;>&#xD;&#xA;&lt;persistable path=&quot;/GiocoCarte/Gioco_NReal/SetteEMezzoNReal.asm&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.asmeta.xt.AsmetaL&quot; name=&quot;SetteEMezzoNReal.asm&quot; tooltip=&quot;GiocoCarte/Gioco_MBT-ATGT/SetteEMezzoNReal.asm&quot;>&#xD;&#xA;&lt;persistable path=&quot;/GiocoCarte/Gioco_MBT-ATGT/SetteEMezzoNReal.asm&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.asmeta.xt.AsmetaL&quot; name=&quot;SetteEMezzo.asm&quot; tooltip=&quot;GiocoCarte/Gioco_Base/SetteEMezzo.asm&quot;>&#xD;&#xA;&lt;persistable path=&quot;/GiocoCarte/Gioco_Base/SetteEMezzo.asm&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.asmeta.xt.AsmetaL&quot; name=&quot;StandardLibrary.asm&quot; tooltip=&quot;GiocoCarte/Gioco_NReal/StandardLibrary.asm&quot;>&#xD;&#xA;&lt;persistable path=&quot;/GiocoCarte/Gioco_NReal/StandardLibrary.asm&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.asmeta.xt.AsmetaL&quot; name=&quot;SetteEMezzoNC.asm&quot; tooltip=&quot;GiocoCarte/Gioco_NChoice/SetteEMezzoNC.asm&quot;>&#xD;&#xA;&lt;persistable path=&quot;/GiocoCarte/Gioco_NChoice/SetteEMezzoNC.asm&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.asmeta.avallaxt.Avalla&quot; name=&quot;ScenarioVincitaUtenteBase.avalla&quot; tooltip=&quot;GiocoCarte/Gioco_NChoice/ScenarioVincitaUtenteBase.avalla&quot;>&#xD;&#xA;&lt;persistable path=&quot;/GiocoCarte/Gioco_NChoice/ScenarioVincitaUtenteBase.avalla&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.asmeta.avallaxt.Avalla&quot; name=&quot;ScenarioVincitaCompleta.avalla&quot; tooltip=&quot;GiocoCarte/Gioco_NChoice/ScenarioVincitaCompleta.avalla&quot;>&#xD;&#xA;&lt;persistable path=&quot;/GiocoCarte/Gioco_NChoice/ScenarioVincitaCompleta.avalla&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.asmeta.avallaxt.Avalla&quot; name=&quot;ScenarioGiocataConPareggio.avalla&quot; tooltip=&quot;GiocoCarte/Gioco_NChoice/ScenarioGiocataConPareggio.avalla&quot;>&#xD;&#xA;&lt;persistable path=&quot;/GiocoCarte/Gioco_NChoice/ScenarioGiocataConPareggio.avalla&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.asmeta.xt.AsmetaL&quot; name=&quot;CTLlibrary.asm&quot; tooltip=&quot;GiocoCarte/Gioco_NReal/CTLlibrary.asm&quot;>&#xD;&#xA;&lt;persistable path=&quot;/GiocoCarte/Gioco_NReal/CTLlibrary.asm&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.asmeta.xt.AsmetaL&quot; name=&quot;SetteEMezzo.asm&quot; tooltip=&quot;GiocoCarte/Gioco_NReal/SetteEMezzo.asm&quot;>&#xD;&#xA;&lt;persistable path=&quot;/GiocoCarte/Gioco_NReal/SetteEMezzo.asm&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.asmeta.avallaxt.Avalla&quot; name=&quot;ScenarioVincitaUtenteBase.avalla&quot; tooltip=&quot;GiocoCarte/Gioco_Base/ScenarioVincitaUtenteBase.avalla&quot;>&#xD;&#xA;&lt;persistable path=&quot;/GiocoCarte/Gioco_Base/ScenarioVincitaUtenteBase.avalla&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.asmeta.avallaxt.Avalla&quot; name=&quot;Scenario1.avalla&quot; tooltip=&quot;GiocoCarte/Gioco_NChoice/Scenario1.avalla&quot;>&#xD;&#xA;&lt;persistable path=&quot;/GiocoCarte/Gioco_NChoice/Scenario1.avalla&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.asmeta.xt.AsmetaL&quot; name=&quot;CTLlibrary.asm&quot; tooltip=&quot;GiocoCarte/Gioco_NChoice/CTLlibrary.asm&quot;>&#xD;&#xA;&lt;persistable path=&quot;/GiocoCarte/Gioco_NChoice/CTLlibrary.asm&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.ui.DefaultTextEditor&quot; name=&quot;ScenarioVincitaUtenteCompleta&quot; tooltip=&quot;GiocoCarte/Gioco_NChoice/ScenarioVincitaUtenteCompleta&quot;>&#xD;&#xA;&lt;persistable path=&quot;/GiocoCarte/Gioco_NChoice/ScenarioVincitaUtenteCompleta&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.asmeta.avallaxt.Avalla&quot; name=&quot;Scenario_VincitaUtenteBase.avalla&quot; tooltip=&quot;GiocoCarte/Scenario_VincitaUtenteBase.avalla&quot;>&#xD;&#xA;&lt;persistable path=&quot;/GiocoCarte/Scenario_VincitaUtenteBase.avalla&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.asmeta.avallaxt.Avalla&quot; name=&quot;Scenario1.avalla&quot; tooltip=&quot;GiocoCarte/Scenario1.avalla&quot;>&#xD;&#xA;&lt;persistable path=&quot;/GiocoCarte/Scenario1.avalla&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.ui.DefaultTextEditor&quot; name=&quot;Scenario_VincitaUtenteBase&quot; tooltip=&quot;GiocoCarte/Scenario_VincitaUtenteBase&quot;>&#xD;&#xA;&lt;persistable path=&quot;/GiocoCarte/Scenario_VincitaUtenteBase&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.asmeta.avallaxt.Avalla&quot; name=&quot;Scenario_VincitaSingolaGiocataPC.avalla&quot; tooltip=&quot;GiocoCarte/Scenario_VincitaSingolaGiocataPC.avalla&quot;>&#xD;&#xA;&lt;persistable path=&quot;/GiocoCarte/Scenario_VincitaSingolaGiocataPC.avalla&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.asmeta.xt.AsmetaL&quot; name=&quot;SetteEMezzo_SenzaChoose.asm&quot; tooltip=&quot;GiocoCarte/SetteEMezzo_SenzaChoose.asm&quot;>&#xD;&#xA;&lt;persistable path=&quot;/GiocoCarte/SetteEMezzo_SenzaChoose.asm&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.asmeta.xt.AsmetaL&quot; name=&quot;ATM.asm&quot; tooltip=&quot;C:\Documenti\UniBG\Materie\Testing\Esercizi Gionny\Asmeta\Esercizio_7\ATM.asm&quot;>&#xD;&#xA;&lt;persistable uri=&quot;file:/C:/Documenti/UniBG/Materie/Testing/Esercizi%20Gionny/Asmeta/Esercizio_7/ATM.asm&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.asmeta.xt.AsmetaL&quot; name=&quot;SetteEMezzo.asm&quot; tooltip=&quot;GiocoCarte/SetteEMezzo.asm&quot;>&#xD;&#xA;&lt;persistable path=&quot;/GiocoCarte/SetteEMezzo.asm&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.ui.DefaultTextEditor&quot; name=&quot;SetteEMezzo&quot; tooltip=&quot;GiocoCarte/SetteEMezzo&quot;>&#xD;&#xA;&lt;persistable path=&quot;/GiocoCarte/SetteEMezzo&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
   <children xsi:type="basic:TrimmedWindow" xmi:id="_5LVSARTSEe6BWP2bIk55_w" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_5LVSAhTSEe6BWP2bIk55_w" label="%trimmedwindow.label.eclipseSDK" x="0" y="0" width="1024" height="768">
     <persistedState key="coolBarVisible" value="true"/>
@@ -72,8 +72,14 @@
           <tags>persp.newWizSC:org.eclipse.jdt.junit.wizards.NewTestCaseCreationWizard</tags>
           <tags>persp.actionSet:org.eclipse.jdt.junit.JUnitActionSet</tags>
           <tags>persp.viewSC:org.eclipse.ant.ui.views.AntView</tags>
+          <tags>persp.editorOnboardingImageUri:platform:/plugin/org.eclipse.jdt.ui/$nl$/icons/full/onboarding_jperspective.png</tags>
+          <tags>persp.editorOnboardingText:Open a file or drop files here to open them.</tags>
+          <tags>persp.editorOnboardingCommand:Find Actions$$$Ctrl+3</tags>
+          <tags>persp.editorOnboardingCommand:Show Key Assist$$$Ctrl+Shift+L</tags>
+          <tags>persp.editorOnboardingCommand:New$$$Ctrl+N</tags>
+          <tags>persp.editorOnboardingCommand:Open Type$$$Ctrl+Shift+T</tags>
           <children xsi:type="basic:PartSashContainer" xmi:id="_5LVSBRTSEe6BWP2bIk55_w" selectedElement="_5LVSDxTSEe6BWP2bIk55_w" horizontal="true">
-            <children xsi:type="basic:PartSashContainer" xmi:id="_5LVSBhTSEe6BWP2bIk55_w" containerData="1816" selectedElement="_5LVSBxTSEe6BWP2bIk55_w">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_5LVSBhTSEe6BWP2bIk55_w" containerData="2083" selectedElement="_5LVSBxTSEe6BWP2bIk55_w">
               <children xsi:type="basic:PartStack" xmi:id="_5LVSBxTSEe6BWP2bIk55_w" elementId="left" containerData="6000" selectedElement="_5LVSCBTSEe6BWP2bIk55_w">
                 <tags>org.eclipse.e4.primaryNavigationStack</tags>
                 <children xsi:type="advanced:Placeholder" xmi:id="_5LVSCBTSEe6BWP2bIk55_w" elementId="org.eclipse.jdt.ui.PackageExplorer" ref="_5LV5tBTSEe6BWP2bIk55_w" closeable="true">
@@ -104,14 +110,12 @@
                 </children>
               </children>
             </children>
-            <children xsi:type="basic:PartSashContainer" xmi:id="_5LVSDxTSEe6BWP2bIk55_w" containerData="8184" selectedElement="_5LVSEBTSEe6BWP2bIk55_w">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_5LVSDxTSEe6BWP2bIk55_w" containerData="7917" selectedElement="_5LVSEBTSEe6BWP2bIk55_w">
               <children xsi:type="basic:PartSashContainer" xmi:id="_5LVSEBTSEe6BWP2bIk55_w" containerData="8401" selectedElement="_5LVSERTSEe6BWP2bIk55_w" horizontal="true">
-                <children xsi:type="basic:PartSashContainer" xmi:id="_5LVSERTSEe6BWP2bIk55_w" containerData="5730" selectedElement="_5LVSExTSEe6BWP2bIk55_w">
+                <children xsi:type="basic:PartSashContainer" xmi:id="_5LVSERTSEe6BWP2bIk55_w" containerData="5730" selectedElement="_5LVSEhTSEe6BWP2bIk55_w">
                   <children xsi:type="advanced:Placeholder" xmi:id="_5LVSEhTSEe6BWP2bIk55_w" elementId="org.eclipse.ui.editorss" containerData="6984" ref="_5LV5rhTSEe6BWP2bIk55_w"/>
                   <children xsi:type="basic:PartStack" xmi:id="_5LVSExTSEe6BWP2bIk55_w" elementId="bottom" containerData="3016" selectedElement="_5LVSGBTSEe6BWP2bIk55_w">
                     <tags>org.eclipse.e4.secondaryDataStack</tags>
-                    <tags>active</tags>
-                    <tags>noFocus</tags>
                     <children xsi:type="advanced:Placeholder" xmi:id="_5LVSFBTSEe6BWP2bIk55_w" elementId="org.eclipse.ui.views.ProblemView" ref="_5LV6BRTSEe6BWP2bIk55_w" closeable="true">
                       <tags>View</tags>
                       <tags>categoryTag:General</tags>
@@ -219,11 +223,14 @@
       <children xsi:type="basic:PartStack" xmi:id="_5LV5rxTSEe6BWP2bIk55_w" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_5LV5sBTSEe6BWP2bIk55_w">
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
+        <tags>active</tags>
         <children xsi:type="basic:Part" xmi:id="_5LV5sBTSEe6BWP2bIk55_w" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="SetteEMezzoATGT.asm" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.asmeta.xt.AsmetaL&quot; name=&quot;SetteEMezzoATGT.asm&quot; partName=&quot;SetteEMezzoATGT.asm&quot; title=&quot;SetteEMezzoATGT.asm&quot; tooltip=&quot;GiocoCarte/Gioco_MBT-ATGT/SetteEMezzoATGT.asm&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/GiocoCarte/Gioco_MBT-ATGT/SetteEMezzoATGT.asm&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1997&quot; selectionTopPixel=&quot;163&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.asmeta.xt.AsmetaL&quot; name=&quot;SetteEMezzoATGT.asm&quot; partName=&quot;SetteEMezzoATGT.asm&quot; title=&quot;SetteEMezzoATGT.asm&quot; tooltip=&quot;GiocoCarte/Gioco_MBT-ATGT/SetteEMezzoATGT.asm&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/GiocoCarte/Gioco_MBT-ATGT/SetteEMezzoATGT.asm&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;371&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
           <tags>org.asmeta.xt.AsmetaL</tags>
+          <tags>active</tags>
+          <tags>activeOnClose</tags>
         </children>
       </children>
     </sharedElements>
@@ -237,7 +244,7 @@
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
       </menus>
-      <toolbar xmi:id="_5LV5_xTSEe6BWP2bIk55_w" elementId="org.eclipse.jdt.ui.PackageExplorer"/>
+      <toolbar xmi:id="_5LV5_xTSEe6BWP2bIk55_w" elementId="org.eclipse.jdt.ui.PackageExplorer" visible="false"/>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_5LV6AxTSEe6BWP2bIk55_w" elementId="org.eclipse.jdt.ui.TypeHierarchy" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Type Hierarchy" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/eview16/class_hi.png" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewClass" value="org.eclipse.jdt.internal.ui.typehierarchy.TypeHierarchyViewPart"/>
@@ -299,12 +306,11 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view/>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
-      <tags>active</tags>
       <menus xmi:id="_5LV6ExTSEe6BWP2bIk55_w" elementId="org.eclipse.ui.console.ConsoleView">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
       </menus>
-      <toolbar xmi:id="_5LV6FhTSEe6BWP2bIk55_w" elementId="org.eclipse.ui.console.ConsoleView"/>
+      <toolbar xmi:id="_5LV6FhTSEe6BWP2bIk55_w" elementId="org.eclipse.ui.console.ConsoleView" visible="false"/>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_5LV6JRTSEe6BWP2bIk55_w" elementId="org.eclipse.ui.views.BookmarkView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Bookmarks" iconURI="platform:/plugin/org.eclipse.ui.ide/icons/full/eview16/bkmrk_nav.png" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewClass" value="org.eclipse.ui.internal.views.markers.BookmarksView"/>
@@ -328,7 +334,7 @@
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
       </menus>
-      <toolbar xmi:id="_5LV6LhTSEe6BWP2bIk55_w" elementId="org.eclipse.ui.views.ContentOutline"/>
+      <toolbar xmi:id="_5LV6LhTSEe6BWP2bIk55_w" elementId="org.eclipse.ui.views.ContentOutline" visible="false"/>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_5LV6MxTSEe6BWP2bIk55_w" elementId="org.eclipse.ui.texteditor.TemplatesView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Templates" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/eview16/templates.png" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewClass" value="org.eclipse.ui.texteditor.templates.TemplatesView"/>
@@ -391,7 +397,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_5LV6QBTSEe6BWP2bIk55_w" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_5LV6SBTSEe6BWP2bIk55_w" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_5LXxrBTSEe6BWP2bIk55_w"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_BiTEoBhPEe6K9MxPC4RelQ" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_5LXxrBTSEe6BWP2bIk55_w"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_5LV6TRTSEe6BWP2bIk55_w" elementId="group.edit" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -428,10 +434,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_5LV6mBTSEe6BWP2bIk55_w" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_5LV6nhTSEe6BWP2bIk55_w" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_5LXxIhTSEe6BWP2bIk55_w"/>
-      </children>
-      <children xsi:type="menu:ToolBar" xmi:id="_5LV6oxTSEe6BWP2bIk55_w" elementId="org.asmeta.xt.AsmetaL">
-        <tags>Draggable</tags>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_BiU50BhPEe6K9MxPC4RelQ" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_5LXxIhTSEe6BWP2bIk55_w"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_5LV6pRTSEe6BWP2bIk55_w" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -563,6 +566,7 @@
     <bindings xmi:id="_5LV7DBTSEe6BWP2bIk55_w" keySequence="CTRL+SHIFT+NUMPAD_DIVIDE" command="_5LXwLxTSEe6BWP2bIk55_w"/>
     <bindings xmi:id="_5LV7DRTSEe6BWP2bIk55_w" keySequence="ALT+/" command="_5LYVkRTSEe6BWP2bIk55_w"/>
     <bindings xmi:id="_5LV7DhTSEe6BWP2bIk55_w" keySequence="SHIFT+CR" command="_5LYViBTSEe6BWP2bIk55_w"/>
+    <bindings xmi:id="_BYxVMBhPEe6K9MxPC4RelQ" keySequence="F4" command="_BYeaRRhPEe6K9MxPC4RelQ"/>
   </bindingTables>
   <bindingTables xmi:id="_5LV7DxTSEe6BWP2bIk55_w" elementId="org.eclipse.xtext.ui.embeddedTextEditorScope" bindingContext="_5LWhHxTSEe6BWP2bIk55_w">
     <bindings xmi:id="_5LV7EBTSEe6BWP2bIk55_w" keySequence="CTRL+SHIFT+CR" command="_5LXxuBTSEe6BWP2bIk55_w"/>
@@ -675,7 +679,6 @@
     <bindings xmi:id="_5LV7bxTSEe6BWP2bIk55_w" keySequence="CTRL+N" command="_5LYV_RTSEe6BWP2bIk55_w"/>
     <bindings xmi:id="_5LV7cBTSEe6BWP2bIk55_w" keySequence="ALT+SHIFT+P" command="_5LXwlRTSEe6BWP2bIk55_w"/>
     <bindings xmi:id="_5LV7cRTSEe6BWP2bIk55_w" keySequence="ALT+SHIFT+R" command="_5LYV-RTSEe6BWP2bIk55_w"/>
-    <bindings xmi:id="_5LV7chTSEe6BWP2bIk55_w" keySequence="ALT+SHIFT+R" command="_5LXwCRTSEe6BWP2bIk55_w"/>
     <bindings xmi:id="_5LV7cxTSEe6BWP2bIk55_w" keySequence="CTRL+B" command="_5LXwDBTSEe6BWP2bIk55_w"/>
     <bindings xmi:id="_5LV7dBTSEe6BWP2bIk55_w" keySequence="ALT+SHIFT+Q B" command="_5LXwohTSEe6BWP2bIk55_w">
       <parameters xmi:id="_5LV7dRTSEe6BWP2bIk55_w" elementId="org.eclipse.ui.views.showView.viewId" name="org.eclipse.ui.views.showView.viewId" value="org.eclipse.debug.ui.BreakpointView"/>
@@ -784,6 +787,8 @@
     <bindings xmi:id="_5LWgexTSEe6BWP2bIk55_w" keySequence="CTRL+2 T" command="_5LXv1hTSEe6BWP2bIk55_w"/>
     <bindings xmi:id="_5LWgfBTSEe6BWP2bIk55_w" keySequence="CTRL+2 L" command="_5LXwSRTSEe6BWP2bIk55_w"/>
     <bindings xmi:id="_5LWgfRTSEe6BWP2bIk55_w" keySequence="CTRL+2 M" command="_5LXx4RTSEe6BWP2bIk55_w"/>
+    <bindings xmi:id="_BYuR4RhPEe6K9MxPC4RelQ" keySequence="CTRL+SHIFT+T" command="_5LXxjBTSEe6BWP2bIk55_w"/>
+    <bindings xmi:id="_BYwHEBhPEe6K9MxPC4RelQ" keySequence="ALT+SHIFT+R" command="_5LYV-RTSEe6BWP2bIk55_w"/>
   </bindingTables>
   <bindingTables xmi:id="_5LWgfhTSEe6BWP2bIk55_w" elementId="org.eclipse.core.runtime.xml" bindingContext="_5LWhIxTSEe6BWP2bIk55_w">
     <bindings xmi:id="_5LWgfxTSEe6BWP2bIk55_w" keySequence="CTRL+SHIFT+P" command="_5LXxYBTSEe6BWP2bIk55_w"/>
@@ -832,6 +837,11 @@
   <bindingTables xmi:id="_5LWgohTSEe6BWP2bIk55_w" elementId="org.eclipse.ui.genericeditor.genericEditorContext" bindingContext="_5LWhCRTSEe6BWP2bIk55_w">
     <bindings xmi:id="_5LWgoxTSEe6BWP2bIk55_w" keySequence="CTRL+SHIFT+G" command="_5LXx3BTSEe6BWP2bIk55_w"/>
     <bindings xmi:id="_5LWgpBTSEe6BWP2bIk55_w" keySequence="F3" command="_5LXxxRTSEe6BWP2bIk55_w"/>
+    <bindings xmi:id="_BYuR4BhPEe6K9MxPC4RelQ" keySequence="CTRL+SHIFT+P" command="_BYeaRBhPEe6K9MxPC4RelQ"/>
+    <bindings xmi:id="_BYvgABhPEe6K9MxPC4RelQ" keySequence="ALT+CTRL+H" command="_BYeaQxhPEe6K9MxPC4RelQ"/>
+    <bindings xmi:id="_BYwHERhPEe6K9MxPC4RelQ" keySequence="ALT+SHIFT+R" command="_5LXwCRTSEe6BWP2bIk55_w"/>
+    <bindings xmi:id="_BYyjUBhPEe6K9MxPC4RelQ" keySequence="ALT+SHIFT+ARROW_UP" command="_BYeaQBhPEe6K9MxPC4RelQ"/>
+    <bindings xmi:id="_BYyjURhPEe6K9MxPC4RelQ" keySequence="ALT+SHIFT+ARROW_DOWN" command="_BYeaQRhPEe6K9MxPC4RelQ"/>
   </bindingTables>
   <bindingTables xmi:id="_5LWgpRTSEe6BWP2bIk55_w" elementId="org.eclipse.debug.ui.memoryview" bindingContext="_5LWhFRTSEe6BWP2bIk55_w">
     <bindings xmi:id="_5LWgphTSEe6BWP2bIk55_w" keySequence="ALT+CTRL+M" command="_5LYVqhTSEe6BWP2bIk55_w"/>
@@ -1354,12 +1364,6 @@
     <tags>View</tags>
     <tags>categoryTag:General</tags>
   </descriptors>
-  <descriptors xmi:id="_5LWhfxTSEe6BWP2bIk55_w" elementId="org.eclipse.ui.views.ResourceNavigator" label="Navigator (Deprecated)" iconURI="platform:/plugin/org.eclipse.ui.ide/icons/full/eview16/filenav_nav.png" tooltip="" category="General" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
-    <persistedState key="originalCompatibilityViewClass" value="org.eclipse.ui.views.navigator.ResourceNavigator"/>
-    <persistedState key="originalCompatibilityViewBundle" value="org.eclipse.ui.ide"/>
-    <tags>View</tags>
-    <tags>categoryTag:General</tags>
-  </descriptors>
   <descriptors xmi:id="_5LWhgBTSEe6BWP2bIk55_w" elementId="org.eclipse.ui.views.BookmarkView" label="Bookmarks" iconURI="platform:/plugin/org.eclipse.ui.ide/icons/full/eview16/bkmrk_nav.png" tooltip="" allowMultiple="true" category="General" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
     <persistedState key="originalCompatibilityViewClass" value="org.eclipse.ui.internal.views.markers.BookmarksView"/>
     <persistedState key="originalCompatibilityViewBundle" value="org.eclipse.ui.ide"/>
@@ -1462,18 +1466,24 @@
     <tags>View</tags>
     <tags>categoryTag:Java</tags>
   </descriptors>
-  <trimContributions xmi:id="_5LXvfRTSEe6BWP2bIk55_w" elementId="org.eclipse.ui.ide.application.trimcontribution.QuickAccess" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" toBeRendered="false" parentId="org.eclipse.ui.main.toolbar" positionInParent="last">
-    <children xsi:type="menu:ToolControl" xmi:id="_5LXvfhTSEe6BWP2bIk55_w" elementId="Spacer Glue" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.renderers.swt/org.eclipse.e4.ui.workbench.renderers.swt.LayoutModifierToolControl">
+  <descriptors xmi:id="_BhInABhPEe6K9MxPC4RelQ" elementId="org.eclipse.lsp4e.callHierarchy.callHierarchyView" label="Call Hierarchy" iconURI="platform:/plugin/org.eclipse.ui/icons/full/eview16/defaultview_misc.png" tooltip="" category="Other" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <persistedState key="originalCompatibilityViewClass" value="org.eclipse.lsp4e.callhierarchy.CallHierarchyView"/>
+    <persistedState key="originalCompatibilityViewBundle" value="org.eclipse.lsp4e"/>
+    <tags>View</tags>
+    <tags>categoryTag:Other</tags>
+  </descriptors>
+  <trimContributions xmi:id="_2r10UF9tEeO-yojH_y4TJA" elementId="org.eclipse.ui.ide.application.trimcontribution.QuickAccess" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" toBeRendered="false" parentId="org.eclipse.ui.main.toolbar" positionInParent="last">
+    <children xsi:type="menu:ToolControl" xmi:id="_76uUAF9tEeO-yojH_y4TJA" elementId="Spacer Glue" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.renderers.swt/org.eclipse.e4.ui.workbench.renderers.swt.LayoutModifierToolControl">
       <tags>glue</tags>
       <tags>move_after:PerspectiveSpacer</tags>
       <tags>SHOW_RESTORE_MENU</tags>
     </children>
-    <children xsi:type="menu:ToolControl" xmi:id="_5LXvfxTSEe6BWP2bIk55_w" elementId="SearchField" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.quickaccess.SearchField">
+    <children xsi:type="menu:ToolControl" xmi:id="_8tJPcF9tEeO-yojH_y4TJA" elementId="SearchField" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.quickaccess.SearchField">
       <tags>move_after:Spacer Glue</tags>
       <tags>HIDEABLE</tags>
       <tags>SHOW_RESTORE_MENU</tags>
     </children>
-    <children xsi:type="menu:ToolControl" xmi:id="_5LXvgBTSEe6BWP2bIk55_w" elementId="Search-PS Glue" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.renderers.swt/org.eclipse.e4.ui.workbench.renderers.swt.LayoutModifierToolControl">
+    <children xsi:type="menu:ToolControl" xmi:id="_9LgmcF9tEeO-yojH_y4TJA" elementId="Search-PS Glue" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.renderers.swt/org.eclipse.e4.ui.workbench.renderers.swt.LayoutModifierToolControl">
       <tags>glue</tags>
       <tags>move_after:SearchField</tags>
       <tags>SHOW_RESTORE_MENU</tags>
@@ -2432,6 +2442,12 @@
   <commands xmi:id="_5LYWjRTSEe6BWP2bIk55_w" elementId="AUTOGEN:::org.eclipse.jdt.debug.ui.DisplayViewActions/org.eclipse.jdt.debug.ui.displayViewToolbar.Display" commandName="Display" description="Display Result of Evaluating Selected Text" category="_5LYWxRTSEe6BWP2bIk55_w"/>
   <commands xmi:id="_5LYWjhTSEe6BWP2bIk55_w" elementId="AUTOGEN:::org.eclipse.jdt.debug.ui.DisplayViewActions/org.eclipse.jdt.debug.ui.displayViewToolbar.Inspect" commandName="Inspect" description="Inspect Result of Evaluating Selected Text" category="_5LYWxRTSEe6BWP2bIk55_w"/>
   <commands xmi:id="_5LYWjxTSEe6BWP2bIk55_w" elementId="AUTOGEN:::org.tigris.subversion.subclipse.u.repoview_actions/org.tigris.subversion.ui.actions.NewRepositoryAction" commandName="Add SVN Repository" description="Add SVN Repository" category="_5LYWxRTSEe6BWP2bIk55_w"/>
+  <commands xmi:id="_BYeaQBhPEe6K9MxPC4RelQ" elementId="org.eclipse.lsp4e.selectionRange.up" commandName="Enclosing Element" description="%command.selection.range.up.decription" category="_5LYWqxTSEe6BWP2bIk55_w"/>
+  <commands xmi:id="_BYeaQRhPEe6K9MxPC4RelQ" elementId="org.eclipse.lsp4e.selectionRange.down" commandName="Restore To Last Selection" description="%command.selection.range.down.decription" category="_5LYWqxTSEe6BWP2bIk55_w"/>
+  <commands xmi:id="_BYeaQhhPEe6K9MxPC4RelQ" elementId="org.eclipse.lsp4e.formatfile" commandName="Format" category="_5LYWqxTSEe6BWP2bIk55_w"/>
+  <commands xmi:id="_BYeaQxhPEe6K9MxPC4RelQ" elementId="org.eclipse.lsp4e.openCallHierarchy" commandName="Open Call Hierarchy" description="%command.open.call.hierarchy.decription" category="_5LYWqxTSEe6BWP2bIk55_w"/>
+  <commands xmi:id="_BYeaRBhPEe6K9MxPC4RelQ" elementId="org.eclipse.ui.genericeditor.gotoMatchingBracket" commandName="%gotoMatchingBracketCommand_name" description="%gotoMatchingBracketCommand_description" category="_5LYWxRTSEe6BWP2bIk55_w"/>
+  <commands xmi:id="_BYeaRRhPEe6K9MxPC4RelQ" elementId="org.eclipse.lsp4e.typeHierarchy" commandName="Show Type Hierarchy" category="_5LYWqxTSEe6BWP2bIk55_w"/>
   <addons xmi:id="_5LYWkBTSEe6BWP2bIk55_w" elementId="org.eclipse.e4.core.commands.service" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
   <addons xmi:id="_5LYWkRTSEe6BWP2bIk55_w" elementId="org.eclipse.e4.ui.contexts.service" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
   <addons xmi:id="_5LYWkhTSEe6BWP2bIk55_w" elementId="org.eclipse.e4.ui.bindings.service" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>

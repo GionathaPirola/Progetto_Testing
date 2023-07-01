@@ -1,0 +1,11 @@
+scenario testBR_r_main_TBR_r_partita_T
+
+load ./..\SetteEMezzoATGT.asm
+
+//// test name test@BR_r_main_TBR_r_partita_T
+//// generated for (test goal): BR_r_main_TBR_r_partita_T: (vittoria = NONDEFINITA) and ((mano = ASSO) and (pescata = ASSO))
+check mano = ASSO;
+check vittoria = NONDEFINITA;
+set pescataIniziale := ASSO;
+set pescata := ASSO;
+step

@@ -1,0 +1,14 @@
+scenario testBR_r_main_TBR_r_partita_FFFFFFFFFFFFFFFT
+
+load ./..\SetteEMezzoATGT.asm
+
+//// test name test@BR_r_main_TBR_r_partita_FFFFFFFFFFFFFFFT
+//// generated for (test goal): BR_r_main_TBR_r_partita_FFFFFFFFFFFFFFFT: (vittoria = NONDEFINITA) and (not((mano = ASSO) and (pescata = ASSO)) and (not(((mano = ASSO) and (pescata = DUE)) or ((mano = DUE) and (pescata = ASSO))) and (not(((mano = ASSO) and (pescata = TRE)) or ((mano = TRE) and (pescata = ASSO))) and (not(((mano = ASSO) and (pescata = QUATTRO)) or ((mano = QUATTRO) and (pescata = ASSO))) and (not(((mano = ASSO) and (pescata = CINQUE)) or ((mano = CINQUE) and (pescata = ASSO))) and (not(((mano = ASSO) and (pescata = SEI)) or ((mano = SEI) and (pescata = ASSO))) and (not(((mano = ASSO) and (pescata = SETTE)) or ((mano = SETTE) and (pescata = ASSO))) and (not((mano = DUE) and (pescata = DUE)) and (not(((mano = DUE) and (pescata = TRE)) or ((mano = TRE) and (pescata = DUE))) and (not(((mano = DUE) and (pescata = QUATTRO)) or ((mano = QUATTRO) and (pescata = DUE))) and (not(((mano = DUE) and (pescata = CINQUE)) or ((mano = CINQUE) and (pescata = DUE))) and (not(((mano = DUE) and (pescata = SEI)) or ((mano = SEI) and (pescata = DUE))) and (not((mano = TRE) and (pescata = TRE)) and (not(((mano = TRE) and (pescata = QUATTRO)) or ((mano = QUATTRO) and (pescata = TRE))) and (not(((mano = TRE) and (pescata = CINQUE)) or ((mano = CINQUE) and (pescata = TRE))) and ((mano = QUATTRO) and (pescata = QUATTRO)))))))))))))))))
+check mano = TRE;
+check vittoria = NONDEFINITA;
+set pescataIniziale := TRE;
+set pescata := ASSO;
+step
+check mano = QUATTRO;
+set pescata := QUATTRO;
+step

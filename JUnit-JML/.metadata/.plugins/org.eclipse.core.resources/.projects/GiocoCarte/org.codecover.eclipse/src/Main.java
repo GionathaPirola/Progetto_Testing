@@ -5,11 +5,7 @@ public class Main {
 		
 		Gioco g = new Gioco(6);
 		int[] pescate = {1,5,3,3,3,3};
-		
-		g.giocata(pescate);
-		g.print();
-
-		
+		 
 		g.giocata(pescate);
 		g.print();
 		
@@ -19,19 +15,22 @@ public class Main {
 		g.giocata(pescate);
 		g.print();
 		
+		g.giocata(pescate);
+		g.print();
+		 
 		
 		
-		g = new Gioco(3);
-		int[] pescate1 = {1,2,3,4,5,6};
+		Gioco g1 = new Gioco(3);
+		int[] pescate1 = {1,2,3};
 		
-		g.giocata(pescate1);
-		g.print();
-		g.giocata(pescate1);
-		g.print();
-		g.giocata(pescate1);
-		g.print();
-		g.giocata(pescate1);
-		g.print();
+		g1.giocata(pescate1);
+		g1.print();
+		g1.giocata(pescate1);
+		g1.print();
+		g1.giocata(pescate1);
+		g1.print();
+		g1.giocata(pescate1);
+		g1.print();
 	}
 
 }

@@ -55,20 +55,20 @@ this.vincitori[i] = 0;
 	
 	//@diverges true;
 	
-	//Richieso che il vettore delle pescate non sia nullo
-		//@requires pescate != null;
+	//Richiedo che il vettore delle pescate sia lungo uguale al numero di giocatori
+		//@requires pescate.length == mano.length;
 	
 	//Richiedo che il vettore delle pescate abbia numeri positivi, compresi tra uno e sette
 		//@requires (\forall int x; 0<=x &&  x<pescate.length; pescate[x]>0 && pescate[x]<8);
 	
-	//Controllo che la mano più la pescate non superi il numero 16
-		//@requires (\forall int x; 0<=x &&  x<mano.length; (mano[x]+pescate[x])>=0 && (mano[x]+pescate[x])<=16);
+	//Controllo che la mano più la pescate non superi il numero 20
+		//@requires (\forall int x; 0<=x &&  x<mano.length; (mano[x]+pescate[x])>=0 && (mano[x]+pescate[x])<=20);
 	
 	//Controllo che vittoria sia un numero compreso tra -1 (nessuno ha ancora vinto) e il numero dei giocatori
 		//@ensures (vittoria >=-1) && (vittoria<=mano.length);
 	
-	//Controllo che in mano non abbia piu di 16
-		//@ensures (\forall int x; 0<=x &&  x<mano.length; mano[x]>=0 && mano[x]<=20);
+	//Controllo che in mano non abbia piu di 14
+		//@ensures (\forall int x; 0<=x &&  x<mano.length; mano[x]>=0 && mano[x]<=14);
 	
 	//Controllo che il risultato sia compreso tra -1 ed il numero di giocatori
 		//@ensures (\result >=-1) && (\result<=mano.length);
@@ -81,39 +81,41 @@ if((((((CodeCoverConditionCoverageHelper_C2 = 0) == 0) || true) && (
   ((CodeCoverConditionCoverageHelper_C2 |= (1)) == 0 || true)))
 )) && (CodeCoverCoverageCounter$1iwyhw3q3j530m01.conditionCounters[2].incrementCounterOfBitMask(CodeCoverConditionCoverageHelper_C2, 1) || true)) || (CodeCoverCoverageCounter$1iwyhw3q3j530m01.conditionCounters[2].incrementCounterOfBitMask(CodeCoverConditionCoverageHelper_C2, 1) && false)) {
 CodeCoverCoverageCounter$1iwyhw3q3j530m01.branches[1]++;
+			CodeCoverCoverageCounter$1iwyhw3q3j530m01.statements[8]++;
+int i = 0;
 int CodeCoverConditionCoverageHelper_C3;
 			//@loop_invariant i>=0 && i<=mano.length;
-			//@loop_invariant (\forall int x; 0<=x &&  x<=i; mano[x]>=0 && mano[x]<=20);
-			CodeCoverCoverageCounter$1iwyhw3q3j530m01.statements[8]++;
-for(int i = 0;(((((CodeCoverConditionCoverageHelper_C3 = 0) == 0) || true) && (
+			//@loop_invariant (\forall int x; 0<=x && x<i; mano[x]>=0 && mano[x]<=20);
+			CodeCoverCoverageCounter$1iwyhw3q3j530m01.statements[9]++;
+for(i = 0;(((((CodeCoverConditionCoverageHelper_C3 = 0) == 0) || true) && (
 (((CodeCoverConditionCoverageHelper_C3 |= (2)) == 0 || true) &&
  ((i < mano.length) && 
   ((CodeCoverConditionCoverageHelper_C3 |= (1)) == 0 || true)))
 )) && (CodeCoverCoverageCounter$1iwyhw3q3j530m01.conditionCounters[3].incrementCounterOfBitMask(CodeCoverConditionCoverageHelper_C3, 1) || true)) || (CodeCoverCoverageCounter$1iwyhw3q3j530m01.conditionCounters[3].incrementCounterOfBitMask(CodeCoverConditionCoverageHelper_C3, 1) && false); i++) {
 int CodeCoverConditionCoverageHelper_C4;
 				//Se non si ha ancora perso ne vinto allora si può pescare
-				CodeCoverCoverageCounter$1iwyhw3q3j530m01.statements[9]++;
+				CodeCoverCoverageCounter$1iwyhw3q3j530m01.statements[10]++;
 if((((((CodeCoverConditionCoverageHelper_C4 = 0) == 0) || true) && (
 (((CodeCoverConditionCoverageHelper_C4 |= (2)) == 0 || true) &&
  ((vincitori[i] == 0) && 
   ((CodeCoverConditionCoverageHelper_C4 |= (1)) == 0 || true)))
 )) && (CodeCoverCoverageCounter$1iwyhw3q3j530m01.conditionCounters[4].incrementCounterOfBitMask(CodeCoverConditionCoverageHelper_C4, 1) || true)) || (CodeCoverCoverageCounter$1iwyhw3q3j530m01.conditionCounters[4].incrementCounterOfBitMask(CodeCoverConditionCoverageHelper_C4, 1) && false)) {
 CodeCoverCoverageCounter$1iwyhw3q3j530m01.branches[3]++;
-					CodeCoverCoverageCounter$1iwyhw3q3j530m01.statements[10]++;
+					CodeCoverCoverageCounter$1iwyhw3q3j530m01.statements[11]++;
 mano[i] = mano[i] + pescate[i];
 } else {
   CodeCoverCoverageCounter$1iwyhw3q3j530m01.branches[4]++;}
 			}
-			CodeCoverCoverageCounter$1iwyhw3q3j530m01.statements[11]++;
+			CodeCoverCoverageCounter$1iwyhw3q3j530m01.statements[12]++;
 primoControllo();
 			//@assert (vittoria >=-1) && (vittoria<=mano.length);
-			CodeCoverCoverageCounter$1iwyhw3q3j530m01.statements[12]++;
+			CodeCoverCoverageCounter$1iwyhw3q3j530m01.statements[13]++;
 secondoControllo();
 
 			//@assert (vittoria >=-1) && (vittoria<=mano.length);
 		} else {
   CodeCoverCoverageCounter$1iwyhw3q3j530m01.branches[2]++;}
-		CodeCoverCoverageCounter$1iwyhw3q3j530m01.statements[13]++;
+		CodeCoverCoverageCounter$1iwyhw3q3j530m01.statements[14]++;
 return vittoria;
 	}
 	
@@ -121,60 +123,62 @@ return vittoria;
 	//@diverges true;
 	
 	//Tutti devono avere o vinto o perso o possono continuare a giocare
-		//@ensures (\forall int x; 0<=x && x<mano.length; (vincitori[x]==-1) || (vincitori[x]==0) || (vincitori[x]==1));
+		//@ensures (\forall int x; 0<=x && x<vincitori.length; (vincitori[x]==-1) || (vincitori[x]==0) || (vincitori[x]==1));
 	public void primoControllo() {
-		CodeCoverCoverageCounter$1iwyhw3q3j530m01.statements[14]++;
-this.controllo = 0;
-int CodeCoverConditionCoverageHelper_C5;
-			//Chi ha in mano più di otto ha perso
-				//@loop_invariant (\forall int x; 0<=x && x<=i; (mano[x]>8) ==> (vincitori[x]==-1));
-		//Chi ha in mano esattamente otto ha vinto
-			//@loop_invariant (\forall int x; 0<=x && x<=i; (mano[x]==8) ==> (vincitori[x]==1));
 		CodeCoverCoverageCounter$1iwyhw3q3j530m01.statements[15]++;
-for(int i = 0;(((((CodeCoverConditionCoverageHelper_C5 = 0) == 0) || true) && (
+this.controllo = 0;
+		CodeCoverCoverageCounter$1iwyhw3q3j530m01.statements[16]++;
+int i = 0;
+int CodeCoverConditionCoverageHelper_C5;
+		//Chi ha in mano più di otto ha perso
+			//@loop_invariant (\forall int x; 0<=x && x<i; (mano[x]>8) ==> (vincitori[x]==-1));
+		//Chi ha in mano esattamente otto ha vinto
+			//@loop_invariant (\forall int x; 0<=x && x<i; (mano[x]==8) ==> (vincitori[x]==1));
+		CodeCoverCoverageCounter$1iwyhw3q3j530m01.statements[17]++;
+for(i = 0;(((((CodeCoverConditionCoverageHelper_C5 = 0) == 0) || true) && (
 (((CodeCoverConditionCoverageHelper_C5 |= (2)) == 0 || true) &&
  ((i < mano.length) && 
   ((CodeCoverConditionCoverageHelper_C5 |= (1)) == 0 || true)))
 )) && (CodeCoverCoverageCounter$1iwyhw3q3j530m01.conditionCounters[5].incrementCounterOfBitMask(CodeCoverConditionCoverageHelper_C5, 1) || true)) || (CodeCoverCoverageCounter$1iwyhw3q3j530m01.conditionCounters[5].incrementCounterOfBitMask(CodeCoverConditionCoverageHelper_C5, 1) && false); i++) {
 int CodeCoverConditionCoverageHelper_C6;
 			//Se in mano si ha più di otto si perde
-			CodeCoverCoverageCounter$1iwyhw3q3j530m01.statements[16]++;
+			CodeCoverCoverageCounter$1iwyhw3q3j530m01.statements[18]++;
 if((((((CodeCoverConditionCoverageHelper_C6 = 0) == 0) || true) && (
 (((CodeCoverConditionCoverageHelper_C6 |= (2)) == 0 || true) &&
  ((mano[i] > 8) && 
   ((CodeCoverConditionCoverageHelper_C6 |= (1)) == 0 || true)))
 )) && (CodeCoverCoverageCounter$1iwyhw3q3j530m01.conditionCounters[6].incrementCounterOfBitMask(CodeCoverConditionCoverageHelper_C6, 1) || true)) || (CodeCoverCoverageCounter$1iwyhw3q3j530m01.conditionCounters[6].incrementCounterOfBitMask(CodeCoverConditionCoverageHelper_C6, 1) && false)) {
 CodeCoverCoverageCounter$1iwyhw3q3j530m01.branches[5]++;
-				CodeCoverCoverageCounter$1iwyhw3q3j530m01.statements[17]++;
+				CodeCoverCoverageCounter$1iwyhw3q3j530m01.statements[19]++;
 vincitori[i] = - 1;
 } else {
   CodeCoverCoverageCounter$1iwyhw3q3j530m01.branches[6]++;}
 int CodeCoverConditionCoverageHelper_C7;
 			//Se in mano si ha esattamente otto, si vince
-			CodeCoverCoverageCounter$1iwyhw3q3j530m01.statements[18]++;
+			CodeCoverCoverageCounter$1iwyhw3q3j530m01.statements[20]++;
 if((((((CodeCoverConditionCoverageHelper_C7 = 0) == 0) || true) && (
 (((CodeCoverConditionCoverageHelper_C7 |= (2)) == 0 || true) &&
  ((mano[i] == 8) && 
   ((CodeCoverConditionCoverageHelper_C7 |= (1)) == 0 || true)))
 )) && (CodeCoverCoverageCounter$1iwyhw3q3j530m01.conditionCounters[7].incrementCounterOfBitMask(CodeCoverConditionCoverageHelper_C7, 1) || true)) || (CodeCoverCoverageCounter$1iwyhw3q3j530m01.conditionCounters[7].incrementCounterOfBitMask(CodeCoverConditionCoverageHelper_C7, 1) && false)) {
 CodeCoverCoverageCounter$1iwyhw3q3j530m01.branches[7]++;
-				CodeCoverCoverageCounter$1iwyhw3q3j530m01.statements[19]++;
+				CodeCoverCoverageCounter$1iwyhw3q3j530m01.statements[21]++;
 vincitori[i] = 1;
-				CodeCoverCoverageCounter$1iwyhw3q3j530m01.statements[20]++;
+				CodeCoverCoverageCounter$1iwyhw3q3j530m01.statements[22]++;
 vittoria = i + 1;
 
 			} else {
   CodeCoverCoverageCounter$1iwyhw3q3j530m01.branches[8]++;}
 int CodeCoverConditionCoverageHelper_C8;
 			//Se in mano si ha meno di otto, si può continuare a giocare a patto che nessuno abbia fatto esattamente otto (Controllato nel secondo metodo)
-			CodeCoverCoverageCounter$1iwyhw3q3j530m01.statements[21]++;
+			CodeCoverCoverageCounter$1iwyhw3q3j530m01.statements[23]++;
 if((((((CodeCoverConditionCoverageHelper_C8 = 0) == 0) || true) && (
 (((CodeCoverConditionCoverageHelper_C8 |= (2)) == 0 || true) &&
  ((mano[i] < 8) && 
   ((CodeCoverConditionCoverageHelper_C8 |= (1)) == 0 || true)))
 )) && (CodeCoverCoverageCounter$1iwyhw3q3j530m01.conditionCounters[8].incrementCounterOfBitMask(CodeCoverConditionCoverageHelper_C8, 1) || true)) || (CodeCoverCoverageCounter$1iwyhw3q3j530m01.conditionCounters[8].incrementCounterOfBitMask(CodeCoverConditionCoverageHelper_C8, 1) && false)) {
 CodeCoverCoverageCounter$1iwyhw3q3j530m01.branches[9]++;
-				CodeCoverCoverageCounter$1iwyhw3q3j530m01.statements[22]++;
+				CodeCoverCoverageCounter$1iwyhw3q3j530m01.statements[24]++;
 controllo = controllo + 1;
 } else {
   CodeCoverCoverageCounter$1iwyhw3q3j530m01.branches[10]++;} 
@@ -186,7 +190,7 @@ controllo = controllo + 1;
 		//@ensures (\forall int x; 0<=x && x<mano.length; (vincitori[x]==-1) || (vincitori[x]==0) || (vincitori[x]==1));
 	public void secondoControllo() {
 int CodeCoverConditionCoverageHelper_C9;
-		CodeCoverCoverageCounter$1iwyhw3q3j530m01.statements[23]++;
+		CodeCoverCoverageCounter$1iwyhw3q3j530m01.statements[25]++;
 for(int i = 0;(((((CodeCoverConditionCoverageHelper_C9 = 0) == 0) || true) && (
 (((CodeCoverConditionCoverageHelper_C9 |= (2)) == 0 || true) &&
  ((i < mano.length) && 
@@ -194,7 +198,7 @@ for(int i = 0;(((((CodeCoverConditionCoverageHelper_C9 = 0) == 0) || true) && (
 )) && (CodeCoverCoverageCounter$1iwyhw3q3j530m01.conditionCounters[9].incrementCounterOfBitMask(CodeCoverConditionCoverageHelper_C9, 1) || true)) || (CodeCoverCoverageCounter$1iwyhw3q3j530m01.conditionCounters[9].incrementCounterOfBitMask(CodeCoverConditionCoverageHelper_C9, 1) && false); i++) {
 int CodeCoverConditionCoverageHelper_C10;
 			//Se in mano si ha meno di 8, però qualcuno ha già vinto allora si ha perso
-			CodeCoverCoverageCounter$1iwyhw3q3j530m01.statements[24]++;
+			CodeCoverCoverageCounter$1iwyhw3q3j530m01.statements[26]++;
 if((((((CodeCoverConditionCoverageHelper_C10 = 0) == 0) || true) && (
 (((CodeCoverConditionCoverageHelper_C10 |= (8)) == 0 || true) &&
  ((mano[i] < 8) && 
@@ -205,13 +209,13 @@ if((((((CodeCoverConditionCoverageHelper_C10 = 0) == 0) || true) && (
   ((CodeCoverConditionCoverageHelper_C10 |= (1)) == 0 || true)))
 )) && (CodeCoverCoverageCounter$1iwyhw3q3j530m01.conditionCounters[10].incrementCounterOfBitMask(CodeCoverConditionCoverageHelper_C10, 2) || true)) || (CodeCoverCoverageCounter$1iwyhw3q3j530m01.conditionCounters[10].incrementCounterOfBitMask(CodeCoverConditionCoverageHelper_C10, 2) && false)) {
 CodeCoverCoverageCounter$1iwyhw3q3j530m01.branches[11]++;
-				CodeCoverCoverageCounter$1iwyhw3q3j530m01.statements[25]++;
+				CodeCoverCoverageCounter$1iwyhw3q3j530m01.statements[27]++;
 vincitori[i] = -1;
 }
 			//Se in mano si ha mano di otto, però tutti gli altri hanno tutti superato l'otto, allora si ha vinto
 			else {
 CodeCoverCoverageCounter$1iwyhw3q3j530m01.branches[12]++;
-int CodeCoverConditionCoverageHelper_C11; CodeCoverCoverageCounter$1iwyhw3q3j530m01.statements[26]++;
+int CodeCoverConditionCoverageHelper_C11; CodeCoverCoverageCounter$1iwyhw3q3j530m01.statements[28]++;
 if((((((CodeCoverConditionCoverageHelper_C11 = 0) == 0) || true) && (
 (((CodeCoverConditionCoverageHelper_C11 |= (8)) == 0 || true) &&
  ((mano[i] < 8) && 
@@ -222,9 +226,9 @@ if((((((CodeCoverConditionCoverageHelper_C11 = 0) == 0) || true) && (
   ((CodeCoverConditionCoverageHelper_C11 |= (1)) == 0 || true)))
 )) && (CodeCoverCoverageCounter$1iwyhw3q3j530m01.conditionCounters[11].incrementCounterOfBitMask(CodeCoverConditionCoverageHelper_C11, 2) || true)) || (CodeCoverCoverageCounter$1iwyhw3q3j530m01.conditionCounters[11].incrementCounterOfBitMask(CodeCoverConditionCoverageHelper_C11, 2) && false)) {
 CodeCoverCoverageCounter$1iwyhw3q3j530m01.branches[13]++;
-				CodeCoverCoverageCounter$1iwyhw3q3j530m01.statements[27]++;
+				CodeCoverCoverageCounter$1iwyhw3q3j530m01.statements[29]++;
 vincitori[i] = 1;
-				CodeCoverCoverageCounter$1iwyhw3q3j530m01.statements[28]++;
+				CodeCoverCoverageCounter$1iwyhw3q3j530m01.statements[30]++;
 vittoria = i + 1;
 
 			} else {
@@ -233,47 +237,46 @@ vittoria = i + 1;
 		}
 	}
 	
-	
 	//Il metodo print viene escluso da jml per problemi di efficenza da parte del solver z3_4_3
 	public void print() {
 int CodeCoverConditionCoverageHelper_C12;
-		CodeCoverCoverageCounter$1iwyhw3q3j530m01.statements[29]++;
+		CodeCoverCoverageCounter$1iwyhw3q3j530m01.statements[31]++;
 for(int i = 0;(((((CodeCoverConditionCoverageHelper_C12 = 0) == 0) || true) && (
 (((CodeCoverConditionCoverageHelper_C12 |= (2)) == 0 || true) &&
  ((i < mano.length) && 
   ((CodeCoverConditionCoverageHelper_C12 |= (1)) == 0 || true)))
 )) && (CodeCoverCoverageCounter$1iwyhw3q3j530m01.conditionCounters[12].incrementCounterOfBitMask(CodeCoverConditionCoverageHelper_C12, 1) || true)) || (CodeCoverCoverageCounter$1iwyhw3q3j530m01.conditionCounters[12].incrementCounterOfBitMask(CodeCoverConditionCoverageHelper_C12, 1) && false); i++) {
 int CodeCoverConditionCoverageHelper_C13;
-			CodeCoverCoverageCounter$1iwyhw3q3j530m01.statements[30]++;
+			CodeCoverCoverageCounter$1iwyhw3q3j530m01.statements[32]++;
 if((((((CodeCoverConditionCoverageHelper_C13 = 0) == 0) || true) && (
 (((CodeCoverConditionCoverageHelper_C13 |= (2)) == 0 || true) &&
  ((vincitori[i] == 1) && 
   ((CodeCoverConditionCoverageHelper_C13 |= (1)) == 0 || true)))
 )) && (CodeCoverCoverageCounter$1iwyhw3q3j530m01.conditionCounters[13].incrementCounterOfBitMask(CodeCoverConditionCoverageHelper_C13, 1) || true)) || (CodeCoverCoverageCounter$1iwyhw3q3j530m01.conditionCounters[13].incrementCounterOfBitMask(CodeCoverConditionCoverageHelper_C13, 1) && false)) {
 CodeCoverCoverageCounter$1iwyhw3q3j530m01.branches[15]++;
-				CodeCoverCoverageCounter$1iwyhw3q3j530m01.statements[31]++;
+				CodeCoverCoverageCounter$1iwyhw3q3j530m01.statements[33]++;
 System.out.println("Giocatore " + i + " ha in mano: " + mano[i] + "-> WIN!");
 }
 			else {
 CodeCoverCoverageCounter$1iwyhw3q3j530m01.branches[16]++;
-int CodeCoverConditionCoverageHelper_C14; CodeCoverCoverageCounter$1iwyhw3q3j530m01.statements[32]++;
+int CodeCoverConditionCoverageHelper_C14; CodeCoverCoverageCounter$1iwyhw3q3j530m01.statements[34]++;
 if((((((CodeCoverConditionCoverageHelper_C14 = 0) == 0) || true) && (
 (((CodeCoverConditionCoverageHelper_C14 |= (2)) == 0 || true) &&
  ((vincitori[i] == 0) && 
   ((CodeCoverConditionCoverageHelper_C14 |= (1)) == 0 || true)))
 )) && (CodeCoverCoverageCounter$1iwyhw3q3j530m01.conditionCounters[14].incrementCounterOfBitMask(CodeCoverConditionCoverageHelper_C14, 1) || true)) || (CodeCoverCoverageCounter$1iwyhw3q3j530m01.conditionCounters[14].incrementCounterOfBitMask(CodeCoverConditionCoverageHelper_C14, 1) && false)) {
 CodeCoverCoverageCounter$1iwyhw3q3j530m01.branches[17]++;
-				CodeCoverCoverageCounter$1iwyhw3q3j530m01.statements[33]++;
+				CodeCoverCoverageCounter$1iwyhw3q3j530m01.statements[35]++;
 System.out.println("Giocatore " + i + " ha in mano: " + mano[i] + "-> PUO GIOCARE");
 }
 			else {
 CodeCoverCoverageCounter$1iwyhw3q3j530m01.branches[18]++;
-				CodeCoverCoverageCounter$1iwyhw3q3j530m01.statements[34]++;
+				CodeCoverCoverageCounter$1iwyhw3q3j530m01.statements[36]++;
 System.out.println("Giocatore " + i + " ha in mano: " + mano[i] + "-> LOSE!");
 }
 }
 		}
-		CodeCoverCoverageCounter$1iwyhw3q3j530m01.statements[35]++;
+		CodeCoverCoverageCounter$1iwyhw3q3j530m01.statements[37]++;
 System.out.println("\n");
 	}
 }
@@ -281,9 +284,9 @@ System.out.println("\n");
 class CodeCoverCoverageCounter$1iwyhw3q3j530m01 extends org.codecover.instrumentation.java.measurement.CounterContainer {
 
   static {
-    org.codecover.instrumentation.java.measurement.ProtocolImpl.getInstance(org.codecover.instrumentation.java.measurement.CoverageResultLogFile.getInstance("C:\\Documenti\\UniBG\\Materie\\Testing\\Progetto_Testing\\JUnit-JML\\.metadata\\.plugins\\org.eclipse.core.resources\\.projects\\GiocoCarte\\org.codecover.eclipse\\coverage-logs\\coverage-log-file.clf"), "3a547fb5-a3a6-4616-b74a-3d9deed6c9be").addObservedContainer(new CodeCoverCoverageCounter$1iwyhw3q3j530m01 ());
+    org.codecover.instrumentation.java.measurement.ProtocolImpl.getInstance(org.codecover.instrumentation.java.measurement.CoverageResultLogFile.getInstance("C:\\Documenti\\UniBG\\Materie\\Testing\\Progetto_Testing\\JUnit-JML\\.metadata\\.plugins\\org.eclipse.core.resources\\.projects\\GiocoCarte\\org.codecover.eclipse\\coverage-logs\\coverage-log-file.clf"), "1d75031c-eeec-41ed-a7b5-00f11b7ae8c8").addObservedContainer(new CodeCoverCoverageCounter$1iwyhw3q3j530m01 ());
   }
-    public static long[] statements = new long[36];
+    public static long[] statements = new long[38];
     public static long[] branches = new long[19];
 
   public static final org.codecover.instrumentation.java.measurement.ConditionCounter[] conditionCounters = new org.codecover.instrumentation.java.measurement.ConditionCounter[15];
@@ -308,7 +311,7 @@ class CodeCoverCoverageCounter$1iwyhw3q3j530m01 extends org.codecover.instrument
   public static void ping() {/* nothing to do*/}
 
   public void reset() {
-      for (int i = 1; i <= 35; i++) {
+      for (int i = 1; i <= 37; i++) {
         statements[i] = 0L;
       }
       for (int i = 1; i <= 18; i++) {
@@ -323,7 +326,7 @@ class CodeCoverCoverageCounter$1iwyhw3q3j530m01 extends org.codecover.instrument
 
   public void serializeAndReset(org.codecover.instrumentation.measurement.CoverageCounterLog log) {
     log.startNamedSection("Gioco.java");
-      for (int i = 1; i <= 35; i++) {
+      for (int i = 1; i <= 37; i++) {
         if (statements[i] != 0L) {
           log.passCounter("S" + i, statements[i]);
           statements[i] = 0L;

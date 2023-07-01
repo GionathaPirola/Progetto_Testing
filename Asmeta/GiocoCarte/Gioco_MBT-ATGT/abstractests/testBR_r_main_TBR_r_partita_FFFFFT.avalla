@@ -1,0 +1,16 @@
+scenario testBR_r_main_TBR_r_partita_FFFFFT
+
+load ./..\SetteEMezzoATGT.asm
+
+//// test name test@BR_r_main_TBR_r_partita_FFFFFT
+//// generated for (test goal): BR_r_main_TBR_r_partita_FFFFFT: (vittoria = NONDEFINITA) and (not((mano = ASSO) and (pescata = ASSO)) and (not(((mano = ASSO) and (pescata = DUE)) or ((mano = DUE) and (pescata = ASSO))) and (not(((mano = ASSO) and (pescata = TRE)) or ((mano = TRE) and (pescata = ASSO))) and (not(((mano = ASSO) and (pescata = QUATTRO)) or ((mano = QUATTRO) and (pescata = ASSO))) and (not(((mano = ASSO) and (pescata = CINQUE)) or ((mano = CINQUE) and (pescata = ASSO))) and (((mano = ASSO) and (pescata = SEI)) or ((mano = SEI) and (pescata = ASSO))))))))
+check mano = TRE;
+check vittoria = NONDEFINITA;
+set pescataIniziale := TRE;
+set pescata := DUE;
+step
+check mano = CINQUE;
+set pescata := ASSO;
+step
+check mano = SEI;
+step
