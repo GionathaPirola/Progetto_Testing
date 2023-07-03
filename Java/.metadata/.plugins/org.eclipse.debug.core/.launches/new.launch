@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="CTwedge.generator">
+<stringAttribute key="ATTR_FILE_PATH" value="C:\Documenti\UniBG\Materie\Testing\Progetto_Testing\Java\GiocoCarte\src\Gioco.java"/>
+<stringAttribute key="generator" value="ACTS"/>
+<booleanAttribute key="ignoreConstraints" value="false"/>
+<intAttribute key="strength" value="2"/>
+</launchConfiguration>
