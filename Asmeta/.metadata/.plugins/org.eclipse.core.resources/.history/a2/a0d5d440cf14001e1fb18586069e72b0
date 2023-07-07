@@ -1,6 +1,0 @@
-scenario testBR_r_main_TBR_r_partita_T
-
-load ./..\SetteEMezzoATGT.asm
-
-//// test name test@BR_r_main_TBR_r_partita_T
-//// generated for (test goal): BR_r_main_TBR_r_partita_T: (vittoria = NONDEFINITA) and (mano = ASSO)

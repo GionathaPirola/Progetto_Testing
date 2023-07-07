@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_Oi4tcBhMEe6hnsAlRP5s3w" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_Oi4tcRhMEe6hnsAlRP5s3w" bindingContexts="_Oi6jsRhMEe6hnsAlRP5s3w">
-  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart&quot; name=&quot;GiocoCarte.fbwarnings.xml&quot; tooltip=&quot;C:\Documenti\UniBG\Materie\Testing\Progetto_Testing\Java\.metadata\.plugins\com.github.spotbugs.plugin.eclipse\GiocoCarte.fbwarnings.xml&quot;>&#xD;&#xA;&lt;persistable uri=&quot;file:/C:/Documenti/UniBG/Materie/Testing/Progetto_Testing/Java/.metadata/.plugins/com.github.spotbugs.plugin.eclipse/GiocoCarte.fbwarnings.xml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;TestGioco.java&quot; tooltip=&quot;GiocoCarte/test/TestGioco.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/GiocoCarte/test/TestGioco.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;testGioco.java&quot; tooltip=&quot;GiocoCarte/test/testGioco.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/GiocoCarte/test/testGioco.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Main.java&quot; tooltip=&quot;GiocoCarte/src/Main.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/GiocoCarte/src/Main.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;ctwedge.CTWedge&quot; name=&quot;GiocoCarte_CT.ctw&quot; tooltip=&quot;GiocoCarte/test/GiocoCarte_CT.ctw&quot;>&#xD;&#xA;&lt;persistable path=&quot;/GiocoCarte/test/GiocoCarte_CT.ctw&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;testGiocoCT.java&quot; tooltip=&quot;GiocoCarte/src/testGiocoCT.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/GiocoCarte/src/testGiocoCT.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.ui.DefaultTextEditor&quot; name=&quot;rand.txt&quot; tooltip=&quot;GiocoCarte/test/rand.txt&quot;>&#xD;&#xA;&lt;persistable path=&quot;/GiocoCarte/test/rand.txt&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Gioco.java&quot; tooltip=&quot;GiocoCarte/src/Gioco.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/GiocoCarte/src/Gioco.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
+  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;testGiocoATGT.java&quot; tooltip=&quot;GiocoXatgt/test/testGiocoATGT.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/GiocoXatgt/test/testGiocoATGT.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;GiocoATGT.java&quot; tooltip=&quot;GiocoXatgt/src/GiocoATGT.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/GiocoXatgt/src/GiocoATGT.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart&quot; name=&quot;GiocoCarte.fbwarnings.xml&quot; tooltip=&quot;C:\Documenti\UniBG\Materie\Testing\Progetto_Testing\Java\.metadata\.plugins\com.github.spotbugs.plugin.eclipse\GiocoCarte.fbwarnings.xml&quot;>&#xD;&#xA;&lt;persistable uri=&quot;file:/C:/Documenti/UniBG/Materie/Testing/Progetto_Testing/Java/.metadata/.plugins/com.github.spotbugs.plugin.eclipse/GiocoCarte.fbwarnings.xml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;TestGioco.java&quot; tooltip=&quot;GiocoCarte/test/TestGioco.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/GiocoCarte/test/TestGioco.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;testGioco.java&quot; tooltip=&quot;GiocoCarte/test/testGioco.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/GiocoCarte/test/testGioco.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Main.java&quot; tooltip=&quot;GiocoCarte/src/Main.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/GiocoCarte/src/Main.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;ctwedge.CTWedge&quot; name=&quot;GiocoCarte_CT.ctw&quot; tooltip=&quot;GiocoCarte/test/GiocoCarte_CT.ctw&quot;>&#xD;&#xA;&lt;persistable path=&quot;/GiocoCarte/test/GiocoCarte_CT.ctw&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;testGiocoCT.java&quot; tooltip=&quot;GiocoCarte/src/testGiocoCT.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/GiocoCarte/src/testGiocoCT.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.ui.DefaultTextEditor&quot; name=&quot;rand.txt&quot; tooltip=&quot;GiocoCarte/test/rand.txt&quot;>&#xD;&#xA;&lt;persistable path=&quot;/GiocoCarte/test/rand.txt&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Gioco.java&quot; tooltip=&quot;GiocoCarte/src/Gioco.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/GiocoCarte/src/Gioco.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
   <tags>ModelMigrationProcessor.001</tags>
   <children xsi:type="basic:TrimmedWindow" xmi:id="_Oi4tcRhMEe6hnsAlRP5s3w" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_Oi4tchhMEe6hnsAlRP5s3w" label="%trimmedwindow.label.eclipseSDK" x="0" y="0" width="1024" height="768">
@@ -76,10 +76,11 @@
           <tags>persp.newWizSC:org.eclipse.jdt.junit.wizards.NewTestCaseCreationWizard</tags>
           <tags>persp.actionSet:org.eclipse.jdt.junit.JUnitActionSet</tags>
           <tags>persp.viewSC:org.eclipse.ant.ui.views.AntView</tags>
-          <children xsi:type="basic:PartSashContainer" xmi:id="_Oi4tdRhMEe6hnsAlRP5s3w" selectedElement="_Oi4tfxhMEe6hnsAlRP5s3w" horizontal="true">
+          <children xsi:type="basic:PartSashContainer" xmi:id="_Oi4tdRhMEe6hnsAlRP5s3w" selectedElement="_Oi4tdhhMEe6hnsAlRP5s3w" horizontal="true">
             <children xsi:type="basic:PartSashContainer" xmi:id="_Oi4tdhhMEe6hnsAlRP5s3w" containerData="1867" selectedElement="_Oi4tdxhMEe6hnsAlRP5s3w">
-              <children xsi:type="basic:PartStack" xmi:id="_Oi4tdxhMEe6hnsAlRP5s3w" elementId="left" containerData="6000" selectedElement="_Oi4teBhMEe6hnsAlRP5s3w">
+              <children xsi:type="basic:PartStack" xmi:id="_Oi4tdxhMEe6hnsAlRP5s3w" elementId="left" containerData="6000" selectedElement="_Oi4texhMEe6hnsAlRP5s3w">
                 <tags>org.eclipse.e4.primaryNavigationStack</tags>
+                <tags>active</tags>
                 <children xsi:type="advanced:Placeholder" xmi:id="_Oi4teBhMEe6hnsAlRP5s3w" elementId="org.eclipse.jdt.ui.PackageExplorer" ref="_Oi5V6RhMEe6hnsAlRP5s3w" closeable="true">
                   <tags>View</tags>
                   <tags>categoryTag:Java</tags>
@@ -109,7 +110,7 @@
               </children>
             </children>
             <children xsi:type="basic:PartSashContainer" xmi:id="_Oi4tfxhMEe6hnsAlRP5s3w" containerData="8133" selectedElement="_Oi4tgBhMEe6hnsAlRP5s3w">
-              <children xsi:type="basic:PartSashContainer" xmi:id="_Oi4tgBhMEe6hnsAlRP5s3w" containerData="6770" selectedElement="_Oi4tghhMEe6hnsAlRP5s3w" horizontal="true">
+              <children xsi:type="basic:PartSashContainer" xmi:id="_Oi4tgBhMEe6hnsAlRP5s3w" containerData="6770" selectedElement="_Oi4tgRhMEe6hnsAlRP5s3w" horizontal="true">
                 <children xsi:type="advanced:Placeholder" xmi:id="_Oi4tgRhMEe6hnsAlRP5s3w" elementId="org.eclipse.ui.editorss" containerData="7500" ref="_Oi5V3xhMEe6hnsAlRP5s3w"/>
                 <children xsi:type="basic:PartSashContainer" xmi:id="_Oi4tghhMEe6hnsAlRP5s3w" containerData="2500" selectedElement="_Oi4thRhMEe6hnsAlRP5s3w">
                   <children xsi:type="basic:PartStack" xmi:id="_Oi4tgxhMEe6hnsAlRP5s3w" elementId="org.eclipse.mylyn.tasks.ui.views.tasksMStack" containerData="5000" selectedElement="_Oi4thBhMEe6hnsAlRP5s3w">
@@ -120,7 +121,6 @@
                   </children>
                   <children xsi:type="basic:PartStack" xmi:id="_Oi4thRhMEe6hnsAlRP5s3w" elementId="right" containerData="5000" selectedElement="_Oi4thhhMEe6hnsAlRP5s3w">
                     <tags>org.eclipse.e4.secondaryNavigationStack</tags>
-                    <tags>active</tags>
                     <children xsi:type="advanced:Placeholder" xmi:id="_Oi4thhhMEe6hnsAlRP5s3w" elementId="org.eclipse.ui.views.ContentOutline" ref="_Oi5WcxhMEe6hnsAlRP5s3w" closeable="true">
                       <tags>View</tags>
                       <tags>categoryTag:General</tags>
@@ -367,32 +367,20 @@
       <tags>categoryTag:Help</tags>
     </sharedElements>
     <sharedElements xsi:type="advanced:Area" xmi:id="_Oi5V3xhMEe6hnsAlRP5s3w" elementId="org.eclipse.ui.editorss" selectedElement="_Oi5V4BhMEe6hnsAlRP5s3w">
-      <children xsi:type="basic:PartStack" xmi:id="_Oi5V4BhMEe6hnsAlRP5s3w" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_a7VfEBmEEe6NC9dhoXplEw">
+      <children xsi:type="basic:PartStack" xmi:id="_Oi5V4BhMEe6hnsAlRP5s3w" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_SeqjwBywEe6YNfbYmHxYmQ">
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
-        <children xsi:type="basic:Part" xmi:id="_Oi5V4RhMEe6hnsAlRP5s3w" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Gioco.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Gioco.java&quot; partName=&quot;Gioco.java&quot; title=&quot;Gioco.java&quot; tooltip=&quot;GiocoCarte/src/Gioco.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/GiocoCarte/src/Gioco.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;3943&quot; selectionTopPixel=&quot;1412&quot;/>&#xD;&#xA;&lt;/editor>"/>
+        <children xsi:type="basic:Part" xmi:id="_T-GysByvEe6YNfbYmHxYmQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="GiocoATGT.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;GiocoATGT.java&quot; partName=&quot;GiocoATGT.java&quot; title=&quot;GiocoATGT.java&quot; tooltip=&quot;GiocoXatgt/src/GiocoATGT.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/GiocoXatgt/src/GiocoATGT.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;182&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
         </children>
-        <children xsi:type="basic:Part" xmi:id="_Oi5V5RhMEe6hnsAlRP5s3w" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Main.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Main.java&quot; partName=&quot;Main.java&quot; title=&quot;Main.java&quot; tooltip=&quot;GiocoCarte/src/Main.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/GiocoCarte/src/Main.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;530&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+        <children xsi:type="basic:Part" xmi:id="_SeqjwBywEe6YNfbYmHxYmQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="testGiocoATGT.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;testGiocoATGT.java&quot; partName=&quot;testGiocoATGT.java&quot; title=&quot;testGiocoATGT.java&quot; tooltip=&quot;GiocoXatgt/test/testGiocoATGT.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/GiocoXatgt/test/testGiocoATGT.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;232&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
-        </children>
-        <children xsi:type="basic:Part" xmi:id="_sNBJoBmBEe6NC9dhoXplEw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="TestGioco.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;TestGioco.java&quot; partName=&quot;TestGioco.java&quot; title=&quot;TestGioco.java&quot; tooltip=&quot;GiocoCarte/test/TestGioco.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/GiocoCarte/test/TestGioco.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;677&quot; selectionTopPixel=&quot;30&quot;/>&#xD;&#xA;&lt;/editor>"/>
-          <tags>Editor</tags>
-          <tags>removeOnHide</tags>
-          <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
-        </children>
-        <children xsi:type="basic:Part" xmi:id="_a7VfEBmEEe6NC9dhoXplEw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="GiocoCarte.fbwarnings.xml" iconURI="platform:/plugin/org.eclipse.wst.xml.ui/icons/xmldoc.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart&quot; name=&quot;GiocoCarte.fbwarnings.xml&quot; partName=&quot;GiocoCarte.fbwarnings.xml&quot; title=&quot;GiocoCarte.fbwarnings.xml&quot; tooltip=&quot;C:\Documenti\UniBG\Materie\Testing\Progetto_Testing\Java\.metadata\.plugins\com.github.spotbugs.plugin.eclipse\GiocoCarte.fbwarnings.xml&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; uri=&quot;file:/C:/Documenti/UniBG/Materie/Testing/Progetto_Testing/Java/.metadata/.plugins/com.github.spotbugs.plugin.eclipse/GiocoCarte.fbwarnings.xml&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;0&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
-          <tags>Editor</tags>
-          <tags>removeOnHide</tags>
-          <tags>org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart</tags>
         </children>
       </children>
     </sharedElements>
@@ -406,7 +394,7 @@
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
       </menus>
-      <toolbar xmi:id="_Oi5WQxhMEe6hnsAlRP5s3w" elementId="org.eclipse.jdt.ui.PackageExplorer"/>
+      <toolbar xmi:id="_Oi5WQxhMEe6hnsAlRP5s3w" elementId="org.eclipse.jdt.ui.PackageExplorer" visible="false"/>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_Oi5WSRhMEe6hnsAlRP5s3w" elementId="org.eclipse.jdt.ui.TypeHierarchy" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Type Hierarchy" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/eview16/class_hi.png" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewClass" value="org.eclipse.jdt.internal.ui.typehierarchy.TypeHierarchyViewPart"/>
@@ -498,8 +486,6 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view/>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
-      <tags>active</tags>
-      <tags>activeOnClose</tags>
       <menus xmi:id="_Oi5WdBhMEe6hnsAlRP5s3w" elementId="org.eclipse.ui.views.ContentOutline">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
@@ -542,11 +528,13 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view failuresOnly=&quot;false&quot; ignoredOnly=&quot;false&quot; layout=&quot;1&quot; orientation=&quot;2&quot; ratio=&quot;500&quot; scroll=&quot;false&quot; time=&quot;true&quot;/>"/>
       <tags>View</tags>
       <tags>categoryTag:Java</tags>
+      <tags>active</tags>
+      <tags>activeOnClose</tags>
       <menus xmi:id="_Oi5WvBhMEe6hnsAlRP5s3w" elementId="org.eclipse.jdt.junit.ResultView">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
       </menus>
-      <toolbar xmi:id="_Oi5WyRhMEe6hnsAlRP5s3w" elementId="org.eclipse.jdt.junit.ResultView" visible="false"/>
+      <toolbar xmi:id="_Oi5WyRhMEe6hnsAlRP5s3w" elementId="org.eclipse.jdt.junit.ResultView"/>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_Oi5W1BhMEe6hnsAlRP5s3w" elementId="org.codecover.eclipse.views.RecommendationsView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="RecommendationsView" iconURI="platform:/plugin/org.codecover.eclipse/icons/sample.gif" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewClass" value="org.codecover.eclipse.views.RecommendationsView"/>
@@ -681,7 +669,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_Oi5XCxhMEe6hnsAlRP5s3w" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_jDxtMBmBEe6NC9dhoXplEw" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_Oi70BBhMEe6hnsAlRP5s3w"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_1j0agByuEe6YNfbYmHxYmQ" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_Oi70BBhMEe6hnsAlRP5s3w"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_Oi5XGBhMEe6hnsAlRP5s3w" elementId="group.edit" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -703,7 +691,7 @@
       <children xsi:type="menu:ToolBar" xmi:id="_Oi5XbhhMEe6hnsAlRP5s3w" elementId="org.eclipse.search.searchActionSet">
         <tags>Draggable</tags>
       </children>
-      <children xsi:type="menu:ToolBar" xmi:id="_Oi5XcxhMEe6hnsAlRP5s3w" elementId="org.eclipse.ui.edit.text.actionSet.presentation" visible="false">
+      <children xsi:type="menu:ToolBar" xmi:id="_Oi5XcxhMEe6hnsAlRP5s3w" elementId="org.eclipse.ui.edit.text.actionSet.presentation">
         <tags>Draggable</tags>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_Oi5XfhhMEe6hnsAlRP5s3w" elementId="group.nav" toBeRendered="false">
@@ -712,7 +700,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_Oi5XgBhMEe6hnsAlRP5s3w" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_jD1XkBmBEe6NC9dhoXplEw" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" enabled="false" type="Check" command="_Oi7zthhMEe6hnsAlRP5s3w"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_1j22wByuEe6YNfbYmHxYmQ" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_Oi7zthhMEe6hnsAlRP5s3w"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_Oi5XixhMEe6hnsAlRP5s3w" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>

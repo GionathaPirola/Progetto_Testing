@@ -1,6 +1,0 @@
-scenario testUR_r_main_TUR_r_partita_TFFFFFFFFFFFFT
-
-load ./..\SetteEMezzoATGT2.asm
-
-//// test name test@UR_r_main_TUR_r_partita_TFFFFFFFFFFFFT
-//// generated for (test goal): UR_r_main_TUR_r_partita_TFFFFFFFFFFFFT: (vittoria = NONDEFINITA) and (not(pescata = NULL) and (not((mano = ASSO) and (pescata = ASSO)) and (not(((mano = ASSO) and (pescata = DUE)) or ((mano = DUE) and (pescata = ASSO))) and (not(((mano = ASSO) and (pescata = TRE)) or ((mano = TRE) and (pescata = ASSO))) and (not(((mano = ASSO) and (pescata = QUATTRO)) or ((mano = QUATTRO) and (pescata = ASSO))) and (not(((mano = ASSO) and (pescata = CINQUE)) or ((mano = CINQUE) and (pescata = ASSO))) and (not(((mano = ASSO) and (pescata = SEI)) or ((mano = SEI) and (pescata = ASSO))) and (not(((mano = ASSO) and (pescata = SETTE)) or ((mano = SETTE) and (pescata = ASSO))) and (not((mano = DUE) and (pescata = DUE)) and (not(((mano = DUE) and (pescata = TRE)) or ((mano = TRE) and (pescata = DUE))) and (not(((mano = DUE) and (pescata = QUATTRO)) or ((mano = QUATTRO) and (pescata = DUE))) and (not(((mano = DUE) and (pescata = CINQUE)) or ((mano = CINQUE) and (pescata = DUE))) and (not(((mano = DUE) and (pescata = SEI)) or ((mano = SEI) and (pescata = DUE))) and ((mano = DUE) and (vittoria != PERSA)))))))))))))))

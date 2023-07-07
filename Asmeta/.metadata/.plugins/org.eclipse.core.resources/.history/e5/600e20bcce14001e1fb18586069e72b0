@@ -1,6 +1,0 @@
-scenario testBR_r_main_TBR_r_partita_TFFFFFFFFFFFFFT
-
-load ./..\SetteEMezzoATGT.asm
-
-//// test name test@BR_r_main_TBR_r_partita_TFFFFFFFFFFFFFT
-//// generated for (test goal): BR_r_main_TBR_r_partita_TFFFFFFFFFFFFFT: (vittoria = NONDEFINITA) and (not(pescata = ZERO) and ((mano != ASSO) and (not((mano = ASSO) and (pescata = ASSO)) and (not(((mano = ASSO) and (pescata = DUE)) or ((mano = DUE) and (pescata = ASSO))) and (not(((mano = ASSO) and (pescata = TRE)) or ((mano = TRE) and (pescata = ASSO))) and (not(((mano = ASSO) and (pescata = QUATTRO)) or ((mano = QUATTRO) and (pescata = ASSO))) and (not(((mano = ASSO) and (pescata = CINQUE)) or ((mano = CINQUE) and (pescata = ASSO))) and (not(((mano = ASSO) and (pescata = SEI)) or ((mano = SEI) and (pescata = ASSO))) and (not(((mano = ASSO) and (pescata = SETTE)) or ((mano = SETTE) and (pescata = ASSO))) and (not((mano = DUE) and (pescata = DUE)) and (not(((mano = DUE) and (pescata = TRE)) or ((mano = TRE) and (pescata = DUE))) and (not(((mano = DUE) and (pescata = QUATTRO)) or ((mano = QUATTRO) and (pescata = DUE))) and (not(((mano = DUE) and (pescata = CINQUE)) or ((mano = CINQUE) and (pescata = DUE))) and (not(((mano = DUE) and (pescata = SEI)) or ((mano = SEI) and (pescata = DUE))) and (mano = DUE)))))))))))))))
