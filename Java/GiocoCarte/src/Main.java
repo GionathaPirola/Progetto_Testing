@@ -23,6 +23,9 @@ public class Main {
 		Gioco g1 = new Gioco(3);
 		int[] pescate1 = {1,2,3};
 		
+		//Violo la precondizione
+		//int[] pescate1 = {1,22,3};
+		
 		g1.giocata(pescate1);
 		g1.print();
 		g1.giocata(pescate1);
