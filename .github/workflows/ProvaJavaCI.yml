@@ -22,5 +22,4 @@ jobs:
         java-version: '11'
         distribution: 'temurin'
     - name: Build with Ant
-      run: ant -noinput -buildfile Progetto_Testing/.github/workflows
-/build.xml
+      run: ant -noinput -buildfile Progetto_Testing/.github/workflows/build.xml
