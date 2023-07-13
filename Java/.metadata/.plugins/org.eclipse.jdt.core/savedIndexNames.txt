@@ -18,5 +18,4 @@ INDEX VERSION 1.131+C:\Documenti\UniBG\Materie\Testing\Progetto_Testing\Java\.me
 2567323097.index
 2778587470.index
 1423510064.index
-1652927277.index
 2409434075.index

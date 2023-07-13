@@ -284,7 +284,7 @@ System.out.println("\n");
 class CodeCoverCoverageCounter$1iwyhw3q3j530m01 extends org.codecover.instrumentation.java.measurement.CounterContainer {
 
   static {
-    org.codecover.instrumentation.java.measurement.ProtocolImpl.getInstance(org.codecover.instrumentation.java.measurement.CoverageResultLogFile.getInstance("C:\\Documenti\\UniBG\\Materie\\Testing\\Progetto_Testing\\Java\\.metadata\\.plugins\\org.eclipse.core.resources\\.projects\\GiocoCarte\\org.codecover.eclipse\\coverage-logs\\coverage-log-file.clf"), "637a734d-6e73-46a9-ad19-7cc4e0b0b515").addObservedContainer(new CodeCoverCoverageCounter$1iwyhw3q3j530m01 ());
+    org.codecover.instrumentation.java.measurement.ProtocolImpl.getInstance(org.codecover.instrumentation.java.measurement.CoverageResultLogFile.getInstance("C:\\Documenti\\UniBG\\Materie\\Testing\\Progetto_Testing\\Java\\.metadata\\.plugins\\org.eclipse.core.resources\\.projects\\GiocoCarte\\org.codecover.eclipse\\coverage-logs\\coverage-log-file.clf"), "8a40caf1-1e6a-44a7-96ba-4104d78ac002").addObservedContainer(new CodeCoverCoverageCounter$1iwyhw3q3j530m01 ());
   }
     public static long[] statements = new long[38];
     public static long[] branches = new long[19];
