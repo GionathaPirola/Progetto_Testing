@@ -106,7 +106,7 @@ definitions:
 	//Non sempre utente o il PC possono vincere una giocata
 	CTLSPEC af(vincitore = NONDEFINITO)
 	
-	CTLSPEC not(eg(vincitore = NONDEFINITO))
+	CTLSPEC eg(vincitore = NONDEFINITO)
 	
 	//Se l'utente non pesca, allora o il PC pesca oppure qualcuno vince la giocata
 	CTLSPEC ag(not(pescaUtente) implies ax(vincitore=WIN_PC or vincitore=WIN_UTENTE or pescaPC))
