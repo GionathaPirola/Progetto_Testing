@@ -4,11 +4,11 @@
   <artifactId>GiocoCarte</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <build>
-    <sourceDirectory>src</sourceDirectory>
-    <testSourceDirectory>test</testSourceDirectory>
+    <sourceDirectory>Java/GiocoCarte/src</sourceDirectory>
+    <testSourceDirectory>Java/GiocoCarte/test</testSourceDirectory>
     <testResources>
       <testResource>
-        <directory>test</directory>
+        <directory>Java/GiocoCarte/test</directory>
         <excludes>
           <exclude>**/*.java</exclude>
         </excludes>
