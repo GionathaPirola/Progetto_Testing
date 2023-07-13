@@ -3898,3 +3898,10 @@ Caused by: org.eclipse.aether.transfer.ArtifactTransferException: Failure to tra
 	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:483)
 	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:401)
 	... 40 more
+
+!ENTRY org.codecover.eclipse 1 0 2023-07-14 01:20:04.999
+!MESSAGE Additional classes added to:
+C:\Documenti\UniBG\Materie\Testing\Progetto_Testing\Java\.metadata\.plugins\org.eclipse.core.resources\.projects\GiocoCarte\org.codecover.eclipse\src
+
+!ENTRY org.codecover.eclipse 1 0 2023-07-14 01:20:05.031
+!MESSAGE Wrote test session container: /GiocoCarte/codecover/test-session-container-2023-07-14-01-20-05-023.xml
